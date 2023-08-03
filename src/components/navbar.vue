@@ -11,7 +11,7 @@
 
 
          <v-toolbar-title><img v-bind:src="require('@/assets/favicon.png')"
-               alt="logo" /></v-toolbar-title><v-spacer></v-spacer>
+               alt="logo" />N Y U S</v-toolbar-title><v-spacer></v-spacer>
          <v-btn>
             <router-link class="text-h5" to="/">ACCUEIL</router-link>
          </v-btn>
@@ -25,21 +25,13 @@
          </v-btn>
          <v-spacer></v-spacer>
          <v-btn>
-            <router-link class="text-h5" to="/Contact">Contact</router-link>
+            <router-link class="text-h5" to="/apropos">A propos</router-link>
          </v-btn>
          <v-spacer></v-spacer>
          <v-btn>
-            <router-link class="text-h5" to="/apropos">A Propos</router-link>
+            <router-link class="text-h5" to="/resa">Réservation</router-link>
          </v-btn>
-         <v-spacer></v-spacer>
-         <v-btn icon>
-            <router-link to="/admin/Dashboard"><v-icon class="text-h4" icon="$admin"></v-icon></router-link>
-         </v-btn>
-         <v-spacer></v-spacer>
-         <v-btn icon>
-            <router-link to="/login"><v-icon class="text-h4" icon="$connexion"></v-icon></router-link>
-         </v-btn>
-         <v-spacer></v-spacer>
+         <v-spacer></v-spacer>       
       </v-toolbar>
    </div>
 </template>
