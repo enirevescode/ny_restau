@@ -1,10 +1,5 @@
 <template>
-  <nav>
-    <router-link to="/">Accueil</router-link> |
-    <router-link to="/menu">Menu</router-link>  |
-    <router-link to="/contact">Contact</router-link>  |
-    <router-link to="/apropos">A propos</router-link>
-  </nav>
+  
   <router-view/>
 </template>
 
