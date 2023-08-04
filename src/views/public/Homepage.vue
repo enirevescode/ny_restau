@@ -1,22 +1,21 @@
 <template>
    <div class="bg-img-accueil">
-           
-     
+                
       <navbar/>
-    
-      
-      
+      <hero_accueil/> 
       <router-view/>
    </div>
 </template>
 
 <script>
 import navbar from '@/components/navbar.vue'
+import hero_accueil from '@/components/hero_accueil.vue'
 export default {
    name: 'Homepage',
    component: 'Homepage',
    components: {
-      navbar
+      navbar,
+      hero_accueil
    }
 }
 </script>
@@ -24,11 +23,8 @@ export default {
 .bg-img-accueil{
    z-index: 1000;
    width: 100vw;
-   height: 100vh;
+   height: 100%;
    background-image: url('@/assets/homepage.webp');
    background-size: cover;
-   position: absolute;
-   top: 0;
-   display: block;
-}
+  }
 </style>

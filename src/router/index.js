@@ -10,6 +10,7 @@ import redirection from '@/views/public/redirection.vue'
 
 //import composants
 import navbar from '@/components/navbar.vue'
+import hero_accueil from '@/components/hero_accueil.vue'
 
 const routes = [
 

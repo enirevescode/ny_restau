@@ -1,11 +1,11 @@
 <template>
    <div>
       <v-toolbar height="150">
-         <v-app-bar-nav-icon></v-app-bar-nav-icon>
+         <v-app-bar-nav-icon><img v-bind:src="require('@/assets/favicon.png')"
+               alt="logo" /></v-app-bar-nav-icon>
 
 
-         <v-toolbar-title><img v-bind:src="require('@/assets/favicon.png')"
-               alt="logo" /><span id="brand">N Y U S</span></v-toolbar-title><v-spacer></v-spacer>
+         <v-toolbar-title><span id="brand">N Y U S</span></v-toolbar-title><v-spacer></v-spacer>
          <v-btn>
             <router-link class="text-h6" to="/">Accueil</router-link>
          </v-btn>
@@ -22,10 +22,13 @@
             <router-link class="text-h6" to="/apropos">A propos</router-link>
          </v-btn>
         
-         <v-btn>
-            <router-link class="text-h6" to="/resa">Réservation</router-link>
-         </v-btn>
-               
+                  
+         <v-col cols="auto">
+           <v-btn size="x-large" 
+           variant="outlined"
+           color="white"><router-link class="text-h6" to="/resa">Réservation</router-link></v-btn>
+         </v-col>
+
       </v-toolbar>
    </div>
 </template>
@@ -39,6 +42,7 @@ export default {
 <style>
 header{
    background-color: transparent !important;
+   margin-left: -50px;
 }
 
 img {
@@ -46,10 +50,20 @@ img {
    height: 35px;
    float: left;
    vertical-align: middle;
+   margin-left: 100px;
    }
 
 #brand{
    float: left;
+   margin-left: 50px;
    vertical-align: middle;
+   color: white;
+   font-size: 20px;
 }   
+
+.text-h6 {
+   color: white;
+   font-size: 15px;
+   text-decoration: none;
+}
 </style>
