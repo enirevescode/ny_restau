@@ -24,8 +24,6 @@
       <v-btn variant="text">Go to Login</v-btn>
 
       
-
-
     </div>
     
     <v-divider
