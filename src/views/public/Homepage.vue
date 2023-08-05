@@ -23,7 +23,7 @@ export default {
 .bg-img-accueil{
    z-index: 1000;
    width: 100vw;
-   height: 100%;
+   height: 100vh;
    background-image: url('@/assets/homepage.webp');
    background-size: cover;
   }
