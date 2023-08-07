@@ -5,7 +5,7 @@
    <v-card
     class="d-flex justify-start h-100 pa-2 ma-5"
     max-width="550"
-    variant="transparent"
+    
   >
     <v-card-text>
       <p class="text-h3 font-weight-bold text--primary">   
