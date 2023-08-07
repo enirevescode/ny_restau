@@ -29,10 +29,6 @@ const routes = [
   //404
   { path: '/:pathMatch(.*)*', name: 'redirection', component: redirection},
 
-  
-  {
-    path: '/navbar', name: 'navbar', component: navbar
-  },
  
   
 ]

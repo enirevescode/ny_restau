@@ -2,7 +2,24 @@
    <div class="bg-img-accueil">
                 
       <navbar/>
-      <hero_accueil/> 
+      <hero_accueil/>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <ambiance/>
       <router-view/>
    </div>
 </template>
@@ -10,12 +27,14 @@
 <script>
 import navbar from '@/components/navbar.vue'
 import hero_accueil from '@/components/hero_accueil.vue'
+import ambiance from '@/components/ambiance.vue'
 export default {
    name: 'Homepage',
    component: 'Homepage',
    components: {
       navbar,
-      hero_accueil
+      hero_accueil,
+      ambiance
    }
 }
 </script>

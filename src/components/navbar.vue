@@ -10,9 +10,28 @@
             <router-link class="text-h6" to="/">Accueil</router-link>
          </v-btn>
         
-         <v-btn>
-            <router-link class="text-h6" to="/menu">Menu</router-link>
-         </v-btn>
+         <!-- <v-btn> -->
+            
+            <md-menu>
+      <md-button md-menu-trigger class="text-h6">Menu</md-button>
+
+      <md-menu-content>
+         <router-link class="text-h6" to="/menu"><md-menu-item>My Item 1</md-menu-item></router-link>
+        <md-menu-item>My Item 2</md-menu-item>
+       
+      </md-menu-content>
+    </md-menu>
+         <!-- </v-btn> -->
+
+         <md-menu md-size="medium" md-align-trigger>
+      <md-button md-menu-trigger>Align with trigger</md-button>
+
+      <md-menu-content>
+        <md-menu-item>My Item 1</md-menu-item>
+        <md-menu-item>My Item 2</md-menu-item>
+        <md-menu-item>My Item 3</md-menu-item>
+      </md-menu-content>
+    </md-menu>
         
          <v-btn>
             <router-link class="text-h6" to="/contact">Contact</router-link>
@@ -66,4 +85,9 @@ img {
    font-size: 15px;
    text-decoration: none;
 }
+
+.md-menu {
+    margin: 24px;
+    color: white;
+  }
 </style>
