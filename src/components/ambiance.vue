@@ -20,9 +20,9 @@
                      <v-img width ="520" height ="360" :src="require('@/assets/good-vibes.webp')" :aspect-ratio="1" cover>
 
                      </v-img>
-                     <div class="font-weight-bold text-left my-3">Good Vibes</div>
+                     <div class="font-weight-bold text-left mt-6 mb-1 mr-10">Good Vibes</div>
                      <v-card-text>
-                        <div class="text-body-2 text-left font-weight-regular">
+                        <div class="text-body-2 text-left font-weight-regular ">
                            In total 650m² of hand-crafted decor, mix of styles and colors.
                         </div>
                      </v-card-text>
