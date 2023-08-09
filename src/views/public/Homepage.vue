@@ -21,6 +21,7 @@
 
       <ambiance/>
       <carte/>
+      <card_resa/>
       <router-view/>
    </div>
 </template>
@@ -30,13 +31,16 @@ import navbar from '@/components/navbar.vue'
 import hero_accueil from '@/components/hero_accueil.vue'
 import ambiance from '@/components/ambiance.vue'
 import carte from '@/components/carte_menu.vue'
+import card_resa from '@/components/card_resa.vue'
+
 export default {
    name: 'Homepage',
    component: 'Homepage',
    components: {
       navbar,
       hero_accueil,
-      ambiance
+      ambiance,
+      card_resa
    }
 }
 </script>

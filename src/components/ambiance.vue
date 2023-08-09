@@ -17,7 +17,7 @@
             <v-card class="my-10">
                <v-card-item>
                   <div>
-                     <v-img width ="520" height ="360" :src="require('@/assets/good-vibes.webp')" :aspect-ratio="1" cover>
+                     <v-img width ="520" height ="360" :src="require('@/assets/good-vibes.webp')" :aspect-ratio="1" class= "d-flex justify-center align-center" cover>
 
                      </v-img>
                      <div class="font-weight-bold text-left mt-6 mb-1 mr-10">Good Vibes</div>
@@ -34,7 +34,7 @@
             <v-card>
                <v-card-item>
                   <div>
-                     <v-img width ="520" height ="360" :src="require('@/assets/bg-image-cake.webp')" :aspect-ratio="1" cover>
+                     <v-img width ="520" height ="360" :src="require('@/assets/bg-image-cake.webp')" :aspect-ratio="1" cover hide-delimiter>
 
                      </v-img>
                   </div>
