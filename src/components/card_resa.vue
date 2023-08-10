@@ -31,7 +31,6 @@
       :src="require('@/assets/cake.webp')"
       width="275"
       height="400"
-      
       id="cake"
       ></v-img>
   </v-sheet>
