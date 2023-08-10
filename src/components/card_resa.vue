@@ -25,8 +25,15 @@
        <v-icon></v-icon>Telephone Reservations
       </p>
 <p class="tel">12 34 56 7829</p>
+      </div>
+
+      <v-img
+      :src="require('@/assets/cake.webp')"
+      width="275"
+      height="400"
       
-    </div>
+      id="cake"
+      ></v-img>
   </v-sheet>
 
 
@@ -39,5 +46,9 @@ export default {
 <style>
 .tel{
   font-size: 45px;
+}
+
+#cake {
+  left: 450px;
 }
 </style>
