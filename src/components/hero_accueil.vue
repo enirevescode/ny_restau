@@ -13,7 +13,7 @@
       <h1 class="text-h2 font-weight">A Really Good Place to Eat In the City of New York!</h1>
       <br>
 
-      <div class="text-h5 font-weight-medium mb-2">
+      <div class="text-h6 font-weight-medium mb-2">
         You are officially a part of the Vuetify Community!
       </div>
 

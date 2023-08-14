@@ -58,7 +58,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 header{
    background-color: transparent !important;
    margin-left: -50px;

@@ -11,7 +11,7 @@
     <div>
       <h1 class="text-h4 font-weight-black">Réservation</h1>
 
-      <div class="text-h5 font-weight-medium my-2">
+      <div class="text-h6 font-weight-medium my-2">
         Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit. Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non.
       </div>
 
