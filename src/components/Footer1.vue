@@ -6,14 +6,14 @@
 <v-img 
 v-bind:src="require('@/assets/favicon.png')"
 :width="32"
-alt="logo" /><v-card-text>N Y U S</v-card-text>
-<v-card-text>
+alt="logo" /><v-card-text class="text-left">N Y U S</v-card-text>
+<v-card-text class="text-justify">
   Egestas sit in lobortis duis viverra enim eros ornare. Et tincidunt pretium curabitur vehicula turpis adipiscing donec. Et ut morbi magna quis purus aliquet.
 </v-card-text>
 <v-btn
         v-for="icon in icons"
         :key="icon"
-        class="mx-4"
+        class="mx-3"
         :icon="icon"
         variant="plain"
         size="small"

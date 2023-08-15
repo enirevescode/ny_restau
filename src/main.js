@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import { aliases, mdi } from 'vuetify/iconsets/mdi'
+import { mdiAccount } from '@mdi/js'
 
 // Vuetify
 import 'vuetify/styles'
@@ -15,7 +16,10 @@ const vuetify = createVuetify({
   directives,
   icons: {
     defaultSet: 'mdi',
-    aliases,
+    aliases: {
+      ...aliases,
+      account: mdiAccount,
+    },
     sets: {
       mdi,
     },
