@@ -1,12 +1,19 @@
 <template>
-<v-container>
+<v-container class="mt-10">
+  
  <v-row class="bg-black">
-<v-col cols="4">
-  <v-card class="bg-black">
+  
+<v-col cols="3">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <v-card class="bg-black ml-1" title="N Y U S">
 <v-img 
 v-bind:src="require('@/assets/favicon.png')"
 :width="32"
-alt="logo" /><v-card-text class="text-left">N Y U S</v-card-text>
+alt="logo" />
 <v-card-text class="text-justify">
   Egestas sit in lobortis duis viverra enim eros ornare. Et tincidunt pretium curabitur vehicula turpis adipiscing donec. Et ut morbi magna quis purus aliquet.
 </v-card-text>
@@ -17,9 +24,65 @@ alt="logo" /><v-card-text class="text-left">N Y U S</v-card-text>
         :icon="icon"
         variant="plain"
         size="small"
-        
-      ></v-btn>
+        ></v-btn>
 </v-card>
+</v-col>
+<v-col cols="3">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <v-card title="Our Location" class="bg-black">
+    <div class="text-left">
+      <p>3 E 19th St, 123 Fifth Avenue,<br>
+NY 10160, New York, USA<br>
+1 234 567 890"</p>
+    </div>   
+  <v-card-actions>
+    <v-btn>Get location</v-btn>
+  </v-card-actions>
+</v-card>
+</v-col>
+<v-col cols="3">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <v-card title="Quick Links" class="bg-black">
+    <router-link v-for="link in links"
+    :key="link"
+    to="{{link}}"
+    color="white"
+    variant="text"
+    class="mx-1"
+    rounded="xl"
+    >{{ link }}
+       
+      </router-link>
+  </v-card>
+</v-col>
+<v-col>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <v-card title="Opening Hours" class="bg-black">
+    <div >
+<p>
+
+Sunday to Wednesday<br>
+
+9AM - 10.30PM<br><br>
+
+Thursday, Friday, Saturday<br>
+
+9AM - 12.30AM
+</p>
+    </div>
+  </v-card>
 </v-col>
  </v-row>
 </v-container>
@@ -30,12 +93,11 @@ export default {
    data: () => ({
     value: 0,
     links: [
-        'Homepage',
-        'apropos',
-        'menu',
-        'resa',
+        'Accueil',
+        'Menu',
+        'A propos',
         'Contact',
-      ],
+        ],
     icons: [
        'mdi-facebook',
        'mdi-twitter',
@@ -46,5 +108,9 @@ export default {
 }
 </script>
 <style scoped>
-
+.v-container{
+  
+  max-width: 100%;
+  
+}
 </style>
