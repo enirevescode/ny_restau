@@ -35,19 +35,19 @@
       ></v-img>
   </v-sheet>
 
-
 </template>
 <script>
 export default {
    name: "resa"
 }
 </script>
-<style>
+<style scoped>
 .tel{
   font-size: 45px;
 }
 
 #cake {
-  left: 450px;
+  left: 550px;
 }
+
 </style>

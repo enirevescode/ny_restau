@@ -21,6 +21,7 @@
 
       <ambiance/>
       <carte_menu/>
+      <card_testimonial/>
       <card_resa/>
       <Footer1/>
       <router-view/>
@@ -32,6 +33,7 @@ import navbar from '@/components/navbar.vue'
 import hero_accueil from '@/components/hero_accueil.vue'
 import ambiance from '@/components/ambiance.vue'
 import carte_menu from '@/components/carte_menu.vue'
+import card_testimonial from '@/components/card_testimonial.vue'
 import card_resa from '@/components/card_resa.vue'
 import Footer1 from '@/components/Footer1.vue'
 
@@ -43,6 +45,7 @@ export default {
       hero_accueil,
       ambiance,
       carte_menu,
+      card_testimonial,
       card_resa,
       Footer1
    }
