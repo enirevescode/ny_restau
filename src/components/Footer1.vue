@@ -33,24 +33,26 @@ alt="logo" />
   <br>
   <br>
   <br>
-  <v-card title="Our Location" class="bg-black">
+  <v-card class="bg-black ml-1" title="Our Location">
     <div class="text-left">
-      <p>3 E 19th St, 123 Fifth Avenue,<br>
-NY 10160, New York, USA<br>
-1 234 567 890"</p>
-    </div>   
+      <p> 3 E 19th St, 123 Fifth Avenue,</p>
+      <p>NY 10160, New York, USA </p>
+      <p>1 234 567 890</p>
+    </div>
+     
+    
   <v-card-actions>
     <v-btn>Get location</v-btn>
   </v-card-actions>
 </v-card>
 </v-col>
-<v-col cols="3">
+<v-col cols='3'>
   <br>
   <br>
   <br>
   <br>
   <br>
-  <v-card title="Quick Links" class="bg-black">
+  <v-card class="bg-black ml-1" title="Quick Links">
     <router-link v-for="link in links"
     :key="link"
     to="{{link}}"
@@ -113,4 +115,6 @@ export default {
   max-width: 100%;
   
 }
+
+ 
 </style>
