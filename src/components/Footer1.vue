@@ -9,10 +9,10 @@
   <br>
   <br>
   <br>
-  <v-card class="bg-black ml-1" title="N Y U S">
+  <v-card class="bg-black ml-1">
 <v-img 
-v-bind:src="require('@/assets/favicon.png')"
-:width="32"
+v-bind:src="require('@/assets/logo.webp')"
+:width="120"
 alt="logo" />
 <v-card-text class="text-justify">
   Egestas sit in lobortis duis viverra enim eros ornare. Et tincidunt pretium curabitur vehicula turpis adipiscing donec. Et ut morbi magna quis purus aliquet.

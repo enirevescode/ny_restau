@@ -1,11 +1,11 @@
 <template>
    <div>
       <v-toolbar height="150">
-         <v-app-bar-nav-icon><img v-bind:src="require('@/assets/favicon.png')"
+         <v-app-bar-nav-icon><img v-bind:src="require('@/assets/logo.webp')"
                alt="logo" /></v-app-bar-nav-icon>
 
 
-         <v-toolbar-title><span id="brand">N Y U S</span></v-toolbar-title><v-spacer></v-spacer>
+         <v-spacer></v-spacer>
          <v-btn>
             <router-link class="text-h6" to="/">Accueil</router-link>
          </v-btn>
@@ -65,20 +65,12 @@ header{
 }
 
 img {
-   width: 35px;
+   width: 120px;
    height: 35px;
    float: left;
-   vertical-align: middle;
-   margin-left: 100px;
+   margin-left: 200px;
    }
 
-#brand{
-   float: left;
-   margin-left: 50px;
-   vertical-align: middle;
-   color: white;
-   font-size: 20px;
-}   
 
 .text-h6 {
    color: white;
