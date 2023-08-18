@@ -7,6 +7,10 @@
   <v-container pa-16>
     <v-row no-gutters>
       <v-col order="last">
+        <v-avatar size="95" color="#f5c61c">
+         <v-img width ="80" height ="80" :src="require('@/assets/kyle.png')" :aspect-ratio="1" class= "mx-auto" >
+        </v-img>
+        </v-avatar>
         <v-sheet 
         class="pa-6 ma-2 bg-black"
         width="367px"
@@ -21,6 +25,12 @@
         </v-sheet>
       </v-col>
       <v-col>
+
+        <v-avatar size="95" color="#f5c61c">
+         <v-img width ="80" height ="80" :src="require('@/assets/diana.png')" :aspect-ratio="1" class= "mx-auto" >
+        </v-img>
+        </v-avatar>
+
         <v-sheet 
         class="pa-6 mb-16 bg-black"
         width="367px"
@@ -29,11 +39,15 @@
         >
           
 Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel.
-Dian Annakin
+Diana Annakin
 
         </v-sheet>
       </v-col>
       <v-col order="first">
+        <v-avatar size="95" color="#f5c61c">
+         <v-img width ="80" height ="80" :src="require('@/assets/emma.png')" :aspect-ratio="1" class= "mx-auto" >
+        </v-img>
+        </v-avatar>
         <v-sheet 
         class="pa-6 ma-2 bg-black"
         width="367px"
@@ -56,10 +70,10 @@ export default {
 </script>
 <style scoped>
 .testi{
-   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgb(255, 255, 255, 0.8)),
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),
    url('@/assets/testimonail-section.webp');
    opacity: 1;
-   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+   transition: background 0.8s, border-radius 0.8s, opacity 0.8s;
    height: 669px;
 }
 
@@ -79,5 +93,14 @@ export default {
    font-size: 3rem;
    font-weight: 700;
    letter-spacing: 2px;
+}
+
+.v-avatar {
+  z-index: 1000;
+}
+
+.avatar-border {
+  border-width: 100px;
+  border-color: white;
 }
 </style>
