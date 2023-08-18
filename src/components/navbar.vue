@@ -71,7 +71,6 @@ img {
    margin-left: 200px;
    }
 
-
 .text-h6 {
    color: white;
    font-size: 15px;
