@@ -8,11 +8,11 @@
     <v-row no-gutters>
       <v-col order="last">
         <v-avatar size="95" color="#f5c61c">
-         <v-img width ="80" height ="80" :src="require('@/assets/kyle.png')" :aspect-ratio="1" class= "mx-auto" >
+         <v-img width ="80" height ="80" :src="require('@/assets/kyle.png')" :aspect-ratio="1" class= "mx-auto text-center" >
         </v-img>
         </v-avatar>
         <v-sheet 
-        class="pa-6 ma-2 bg-black"
+        class="pt-16 px-6 mb-n16 bg-black text-h6"
         width="367px"
         height="319px"
         rounded="lg"
@@ -32,7 +32,7 @@
         </v-avatar>
 
         <v-sheet 
-        class="pa-6 mb-16 bg-black"
+        class="pt-16 px-6 mb-n16 bg-black text-h6"
         width="367px"
         height="319px"
         rounded="lg"
@@ -45,11 +45,11 @@ Diana Annakin
       </v-col>
       <v-col order="first">
         <v-avatar size="95" color="#f5c61c">
-         <v-img width ="80" height ="80" :src="require('@/assets/emma.png')" :aspect-ratio="1" class= "mx-auto" >
+         <v-img width ="80" height ="80" :src="require('@/assets/emma.png')" :aspect-ratio="1" class= "mx-auto mb-20" >
         </v-img>
         </v-avatar>
         <v-sheet 
-        class="pa-6 ma-2 bg-black"
+        class="pt-16 px-6 mb-n16 bg-black text-h6"
         width="367px"
         height="319px"
         rounded="lg"
@@ -97,10 +97,13 @@ export default {
 
 .v-avatar {
   z-index: 1000;
+  margin-bottom: -40px;
 }
 
-.avatar-border {
-  border-width: 100px;
-  border-color: white;
+.v-container {
+  margin-top: 150px;
 }
+
+
+
 </style>

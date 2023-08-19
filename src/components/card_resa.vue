@@ -1,5 +1,4 @@
 <template>
-   
   <v-sheet
     class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4"
     elevation="0"
@@ -50,4 +49,7 @@ export default {
   left: 550px;
 }
 
+.v-sheet {
+  margin-top: 190px;
+}
 </style>
