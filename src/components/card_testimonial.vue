@@ -4,11 +4,11 @@
    <h2 class="text-h2">What They Say</h2>
    
      
-  <v-container pa-16>
+  <v-container>
     <v-row no-gutters>
       <v-col order="last">
         <v-avatar size="95" color="#f5c61c">
-         <v-img width ="80" height ="80" :src="require('@/assets/kyle.png')" :aspect-ratio="1" class= "mx-auto text-center" >
+         <v-img width ="80" height ="80" :src="require('@/assets/kyle.png')" :aspect-ratio="1" class= "mx-auto" >
         </v-img>
         </v-avatar>
         <v-sheet 
@@ -19,8 +19,8 @@
         >
           
          Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel.
-         Kyle Smith
 
+         Kyle Smith
 
         </v-sheet>
       </v-col>
@@ -45,7 +45,7 @@ Diana Annakin
       </v-col>
       <v-col order="first">
         <v-avatar size="95" color="#f5c61c">
-         <v-img width ="80" height ="80" :src="require('@/assets/emma.png')" :aspect-ratio="1" class= "mx-auto mb-20" >
+         <v-img width ="80" height ="80" :src="require('@/assets/emma.png')" :aspect-ratio="1" class= "mx-auto" >
         </v-img>
         </v-avatar>
         <v-sheet 
@@ -55,7 +55,7 @@ Diana Annakin
         rounded="lg"
         >
          Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel.
-Emma Odinson
+          Emma Odinson
         </v-sheet>
       </v-col>
     </v-row>
@@ -81,7 +81,7 @@ export default {
 .text-h5{
    color: white;
    font-weight: 700;
-   padding-bottom: 70px;
+   padding-bottom: 50px;
    padding-top: 70px;
    letter-spacing: 2px;
    line-height: 1.7;
@@ -101,9 +101,7 @@ export default {
 }
 
 .v-container {
-  margin-top: 150px;
+  margin-top: 120px;
 }
-
-
 
 </style>
