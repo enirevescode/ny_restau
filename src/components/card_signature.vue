@@ -1,67 +1,13 @@
 <template>
+  <v-sheet class="mb-16">
    <div class="signature">
-   <h3 class="text-h5">TESTIMONIAL</h3>
-   <h2 class="text-h2">What They Say</h2>
-   
-     
-  <v-container>
-    <v-row no-gutters>
-      <v-col order="last">
-        <v-avatar size="95" color="#f5c61c">
-         <v-img width ="80" height ="80" :src="require('@/assets/kyle.png')" :aspect-ratio="1" class= "mx-auto" >
-        </v-img>
-        </v-avatar>
-        <v-sheet 
-        class="pt-16 px-6 mb-n16 bg-black text-h6"
-        width="367px"
-        height="319px"
-        rounded="lg"
-        >
-          
-         Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel.
+   <h3 class="text-h6">HOMEMADE</h3>
+   <h2 class="text-h2">Signature Menu</h2>
+   <p >Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit.</p><p>Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non. </p>
+   </div>  
+  </v-sheet>
 
-         Kyle Smith
-
-        </v-sheet>
-      </v-col>
-      <v-col>
-
-        <v-avatar size="95" color="#f5c61c">
-         <v-img width ="80" height ="80" :src="require('@/assets/diana.png')" :aspect-ratio="1" class= "mx-auto" >
-        </v-img>
-        </v-avatar>
-
-        <v-sheet 
-        class="pt-16 px-6 mb-n16 bg-black text-h6"
-        width="367px"
-        height="319px"
-        rounded="lg"
-        >
-          
-Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel.
-Diana Annakin
-
-        </v-sheet>
-      </v-col>
-      <v-col order="first">
-        <v-avatar size="95" color="#f5c61c">
-         <v-img width ="80" height ="80" :src="require('@/assets/emma.png')" :aspect-ratio="1" class= "mx-auto" >
-        </v-img>
-        </v-avatar>
-        <v-sheet 
-        class="pt-16 px-6 mb-n16 bg-black text-h6"
-        width="367px"
-        height="319px"
-        rounded="lg"
-        >
-         Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel.
-          Emma Odinson
-        </v-sheet>
-      </v-col>
-    </v-row>
-  </v-container>
-
-   </div>
+ 
 </template>
 <script>
 export default {
@@ -77,31 +23,21 @@ export default {
    height: 397px;
 }
 
-
-.text-h5{
-   color: white;
-   font-weight: 700;
+.text-h2, .text-h6, p {
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1.7;
+  text-align: left;
+  margin-left: 150px;
+}
+.text-h6{
    padding-bottom: 50px;
-   padding-top: 70px;
-   letter-spacing: 2px;
-   line-height: 1.7;
+   padding-top: 90px;
 }
 
 .text-h2{
-   line-height: 1.3;
-   color: white;
    font-size: 3rem;
-   font-weight: 700;
-   letter-spacing: 2px;
-}
-
-.v-avatar {
-  z-index: 1000;
-  margin-bottom: -40px;
-}
-
-.v-container {
-  margin-top: 120px;
 }
 
 </style>
