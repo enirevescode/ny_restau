@@ -92,10 +92,25 @@
           </v-sheet>
         </v-col>
       </v-row>
+
+      <v-card-actions>
+      <v-btn
+        variant="outlined"
+        color="white"
+        @click="reveal = true"
+        class="mx-auto"
+      >
+        VIEW ALL MENU
+      </v-btn>
+    </v-card-actions>
+    <v-expand-transition>
       <v-row
         align="start"
         no-gutters
-        style="height: 120px;"
+        style="height: 100%;"
+        v-if="reveal"
+        class="v-card--reveal"
+        
       >
         <v-col
           v-for="n in 2"
@@ -109,7 +124,18 @@
             <v-divider  class="border-opacity-50 ml-1 mr-6 my-5" color="white" inset></v-divider>
           </v-sheet>
         </v-col>
-      </v-row>
+        <v-card-actions class="pt-0">
+          <v-btn
+            variant="outlined"
+            color="white"
+            @click="reveal = false"
+            >
+            Fermer
+          </v-btn>
+        </v-card-actions>
+        </v-row>
+   </v-expand-transition>
+    
     </v-container>
 
  
@@ -118,6 +144,9 @@
 <script>
 export default {
   name: "ourmenu",
+  data: () => ({
+      reveal: false,
+    }),
 };
 </script>
 <style scoped>
@@ -140,4 +169,6 @@ export default {
 .text-subtitle-1 {
    color: #7a7a7a;
 }
+
+
 </style>
