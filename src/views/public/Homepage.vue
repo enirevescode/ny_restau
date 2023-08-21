@@ -21,6 +21,7 @@
 
       <ambiance/>
       <ourmenu/>
+      <card_signature/>
       <card_testimonial/>
       <card_resa/>
       <Footer1/>
@@ -34,6 +35,7 @@ import hero_accueil from '@/components/hero_accueil.vue'
 import ambiance from '@/components/ambiance.vue'
 import ourmenu from '@/components/ourmenu.vue'
 import carte_menu from '@/components/carte_menu.vue'
+import card_signature from '@/components/card_signature.vue'
 import card_testimonial from '@/components/card_testimonial.vue'
 import card_resa from '@/components/card_resa.vue'
 import Footer1 from '@/components/Footer1.vue'
@@ -47,6 +49,7 @@ export default {
       ambiance,
       ourmenu,
       carte_menu,
+      card_signature,
       card_testimonial,
       card_resa,
       Footer1
