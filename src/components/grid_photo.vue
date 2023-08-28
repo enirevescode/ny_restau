@@ -28,9 +28,13 @@ export default {
    data: () => ({
     
       photos: [
-        { src: "require('@/assets/fine-dining-food.webp')", flex: 4 },
-        { src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 4 },
-        { title: 'Best airlines', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 4 },
+        { src: require('@/assets/fine-dining-food.webp'), flex: 4 },
+        { src: require('@/assets/lunch-together.webp'), flex: 4 },
+        { src: require('@/assets/lunch.webp'), flex: 4 },
+        { src: require('@/assets/food-on-the-table.webp'), flex: 4 },
+        { src: require('@/assets/drink-at-daytime.webp'), flex: 4 },
+        { src: require('@/assets/chef-in-restaurant-kitchen.webp'), flex: 4 },
+        
       ],
    }),
     
