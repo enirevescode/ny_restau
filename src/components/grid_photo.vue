@@ -13,7 +13,8 @@
             
 
                      <v-img 
-                     :src="photo.src" 
+                     :src="photo.src"
+                     :alt="photo.alt"
                      cover hide-delimiter>
 
                      </v-img>
@@ -28,12 +29,12 @@ export default {
    data: () => ({
     
       photos: [
-        { src: require('@/assets/fine-dining-food.webp'), flex: 4 },
-        { src: require('@/assets/lunch-together.webp'), flex: 4 },
-        { src: require('@/assets/lunch.webp'), flex: 4 },
-        { src: require('@/assets/food-on-the-table.webp'), flex: 4 },
-        { src: require('@/assets/drink-at-daytime.webp'), flex: 4 },
-        { src: require('@/assets/chef-in-restaurant-kitchen.webp'), flex: 4 },
+        { src: require('@/assets/fine-dining-food.webp'), alt:"dining", flex: 4 },
+        { src: require('@/assets/lunch-together.webp'), alt:"lunch together", flex: 4 },
+        { src: require('@/assets/lunch.webp'), alt:"lunch", flex: 4 },
+        { src: require('@/assets/food-on-the-table.webp'), alt:"sort of food", flex: 4 },
+        { src: require('@/assets/drink-at-daytime.webp'), alt:"drinking", flex: 4 },
+        { src: require('@/assets/chef-in-restaurant-kitchen.webp'), alt:"Our Chief", flex: 4 },
         
       ],
    }),
