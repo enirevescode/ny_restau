@@ -16,21 +16,13 @@
       <h1 class="text-h2 font-weight">Contact Us !</h1>
       <br>
 
-      <div class="text-h6 font-weight-medium mb-2">
-        You are officially a part of the Vuetify Community!
+      <div class="text-h5 font-weight-medium mb-2">
+         Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id. 
       </div>
-
-      <p class="text-body-2 mb-4">
-        Please head over to your inbox/spam or others folder to find our verificaiton email.
-      </p>
-
-      <v-btn variant="text">Go to Login</v-btn>
-
-      
     </div>
     
     <v-divider
-        :thickness="5"
+    :thickness="5"
     class="border-opacity-100"
     color="#fad390"
     vertical
@@ -43,20 +35,9 @@
       <br>
       <br>
       <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-
-      
-     
+      <br>     
       <card_signature/>
       <grid_photo/>
-      <our_teams/>
       <card_testimonial/>
       <card_resa/>
       <Footer1/>
@@ -69,7 +50,6 @@ import navbar from '@/components/navbar.vue'
 
 import card_signature from '@/components/card_signature.vue'
 import grid_photo from '@/components/grid_photo.vue'
-import our_teams from '@/components/our_teams.vue'
 import card_testimonial from '@/components/card_testimonial.vue'
 import card_resa from '@/components/card_resa.vue'
 import Footer1 from '@/components/Footer1.vue'
@@ -81,14 +61,13 @@ export default {
       navbar,
       card_signature,
       grid_photo,
-      our_teams,
       card_testimonial,
       card_resa,
       Footer1
    }
 }
 </script>
-<style>
+<style scoped>
 .bg-img-contact{
    z-index: 1000;
    width: 100vw;
@@ -96,5 +75,12 @@ export default {
    background-image: url('@/assets/contact-us.webp');
    background-size: cover;
   }
+
+  .scroll{
+   z-index: -1000;
+   border-right: 10px;
+   height: 100px;
+   border-right-color: white;
+}
 </style>
  
