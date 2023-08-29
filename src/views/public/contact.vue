@@ -1,12 +1,100 @@
 <template>
-   <div>
-      contact
+   <div class="bg-img-contact">
+                
+      <navbar/>
+      
+      <v-sheet
+    class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4 text-white"
+    elevation="0"
+    height="550"
+    rounded
+    max-width="900"
+    width="100%"
+    color="transparent"
+  >
+    <div>
+      <h1 class="text-h2 font-weight">Contact Us !</h1>
+      <br>
+
+      <div class="text-h6 font-weight-medium mb-2">
+        You are officially a part of the Vuetify Community!
+      </div>
+
+      <p class="text-body-2 mb-4">
+        Please head over to your inbox/spam or others folder to find our verificaiton email.
+      </p>
+
+      <v-btn variant="text">Go to Login</v-btn>
+
+      
+    </div>
+    
+    <v-divider
+        :thickness="5"
+    class="border-opacity-100"
+    color="#fad390"
+    vertical
+  ></v-divider>
+    
+  </v-sheet>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      
+     
+      <card_signature/>
+      <grid_photo/>
+      <our_teams/>
+      <card_testimonial/>
+      <card_resa/>
+      <Footer1/>
+      <router-view/>
    </div>
 </template>
 
 <script>
+import navbar from '@/components/navbar.vue'
+
+import card_signature from '@/components/card_signature.vue'
+import grid_photo from '@/components/grid_photo.vue'
+import our_teams from '@/components/our_teams.vue'
+import card_testimonial from '@/components/card_testimonial.vue'
+import card_resa from '@/components/card_resa.vue'
+import Footer1 from '@/components/Footer1.vue'
+
 export default {
    name: 'contact',
-   component: 'contact'
+   component: 'contact',
+   components: {
+      navbar,
+      card_signature,
+      grid_photo,
+      our_teams,
+      card_testimonial,
+      card_resa,
+      Footer1
+   }
 }
 </script>
+<style>
+.bg-img-contact{
+   z-index: 1000;
+   width: 100vw;
+   height: 100vh;
+   background-image: url('@/assets/contact-us.webp');
+   background-size: cover;
+  }
+</style>
+ 
