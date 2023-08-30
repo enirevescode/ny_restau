@@ -23,6 +23,7 @@
       <ourmenu/>
       <card_signature/>
       <grid_photo/>
+      <our_teams/>
       <card_testimonial/>
       <card_resa/>
       <Footer1/>
@@ -38,6 +39,7 @@ import ourmenu from '@/components/ourmenu.vue'
 import carte_menu from '@/components/carte_menu.vue'
 import card_signature from '@/components/card_signature.vue'
 import grid_photo from '@/components/grid_photo.vue'
+import our_teams from '@/components/our_teams.vue'
 import card_testimonial from '@/components/card_testimonial.vue'
 import card_resa from '@/components/card_resa.vue'
 import Footer1 from '@/components/Footer1.vue'
@@ -53,6 +55,7 @@ export default {
       carte_menu,
       card_signature,
       grid_photo,
+      our_teams,
       card_testimonial,
       card_resa,
       Footer1
