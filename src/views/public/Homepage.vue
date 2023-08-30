@@ -26,7 +26,7 @@
       <card_testimonial/>
       <card_resa/>
       <Footer1/>
-      <router-view/>
+      <!-- <router-view/> -->
    </div>
 </template>
 

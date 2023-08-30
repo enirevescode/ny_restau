@@ -17,19 +17,20 @@ const routes = [
   { path: '/',
     name: 'Homepage',
     component: Homepage,
-    children: [
-      { path: '/menu', name: 'menu', component: Menu},
-      { path: '/contact', name: 'contact', component: contact},
-      { path: '/apropos', name: 'apropos', component: apropos},
-      { path: '/resa', name: 'resa', component: resa},
-    ]
+    // children: [
+    //   { path: '/menu', name: 'menu', component: Menu},
+    //   { path: '/contact', name: 'contact', component: contact},
+    //   { path: '/apropos', name: 'apropos', component: apropos},
+    //   { path: '/resa', name: 'resa', component: resa},
+    // ]
   },
-
+  { path: '/menu', name: 'menu', component: Menu},
+  { path: '/contact', name: 'contact', component: contact},
+  { path: '/apropos', name: 'apropos', component: apropos},
+  { path: '/resa', name: 'resa', component: resa},
   
   //404
   { path: '/:pathMatch(.*)*', name: 'redirection', component: redirection},
-
- 
   
 ]
 
