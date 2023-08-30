@@ -14,7 +14,8 @@
             <v-card class="my-10" variant="text">
                <v-card-item>
                   <div>
-                     <v-img width ="600" height ="900" :src="require('@/assets/chef-2.webp')" :aspect-ratio="1" class= "d-flex justify-center align-center" cover>
+                     <v-img width ="600" height ="900" :src="require('@/assets/chef-2.webp')" :aspect-ratio="1" class= "d-flex justify-center align-center" 
+                     alt="présentation plat par 1 serveur, fond noir" cover>
 
                      </v-img>
 
@@ -28,7 +29,8 @@
             <v-card max-width="488" class="mb-10" variant="text">
                <v-card-item>
                   <div>
-                     <v-img width ="360" height ="540" :src="require('@/assets/chef.webp')" :aspect-ratio="1" class= "d-flex justify-center align-center" cover>
+                     <v-img width ="360" height ="540" :src="require('@/assets/chef.webp')" :aspect-ratio="1" class= "d-flex justify-center align-center" 
+                     alt="serveur présentant 1 milkshake" cover>
 
                      </v-img>
                     
@@ -38,7 +40,8 @@
             <v-card class="my-10" variant="text">
                <v-card-item>
                   <div>
-                     <v-img width ="520" height ="684" :src="require('@/assets/chef-3.webp')" :aspect-ratio="1" cover>
+                     <v-img width ="520" height ="684" :src="require('@/assets/chef-3.webp')" :aspect-ratio="1" 
+                     alt="serveur regard éloquant !" cover>
                      </v-img>
                     
                   </div>
