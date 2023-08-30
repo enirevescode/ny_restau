@@ -16,7 +16,7 @@
       <h1 class="text-h2 font-weight">Contact Us !</h1>
       <br>
 
-      <div class="text-h5 font-weight-medium mb-2" width="400">
+      <div class="text-h5 font-weight-medium mb-2" width="400px">
          Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id. 
       </div>
     </div>
@@ -29,6 +29,9 @@
   ></v-divider>
     
   </v-sheet>
+
+  <div class="titre">OUR LOCATION</div>
+  <div class="sous-titre"><p class="text-center">3 E 19th St, 123 Fifth Avenue, NY 10160, New York, USA</p></div>
       <br>
       <br>
       <br>
@@ -36,9 +39,9 @@
       <br>
       <br>
       <br>     
-      <card_signature/>
-      <grid_photo/>
-      <card_testimonial/>
+      
+     
+     
       <card_resa/>
       <Footer1/>
       <router-view/>
@@ -47,10 +50,6 @@
 
 <script>
 import navbar from '@/components/navbar.vue'
-
-import card_signature from '@/components/card_signature.vue'
-import grid_photo from '@/components/grid_photo.vue'
-import card_testimonial from '@/components/card_testimonial.vue'
 import card_resa from '@/components/card_resa.vue'
 import Footer1 from '@/components/Footer1.vue'
 
@@ -59,9 +58,6 @@ export default {
    component: 'contact',
    components: {
       navbar,
-      card_signature,
-      grid_photo,
-      card_testimonial,
       card_resa,
       Footer1
    }
@@ -76,11 +72,20 @@ export default {
    background-size: cover;
   }
 
-  .scroll{
-   z-index: -1000;
-   border-right: 10px;
-   height: 100px;
-   border-right-color: white;
+  .titre{
+   margin-top: 150px;
+   margin-bottom: 50px;
+   letter-spacing: 2px;
+   font-size: 18px;
+   font-weight: 700;
+  }
+
+.sous-titre {
+   font-size: 5rem;
+   font-weight: 700;
+   margin-left: 205px;
+   margin-right: 205px;
+   line-height: 1.3;
 }
 </style>
  
