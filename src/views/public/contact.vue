@@ -16,7 +16,7 @@
       <h1 class="text-h2 font-weight">Contact Us !</h1>
       <br>
 
-      <div class="text-h5 font-weight-medium mb-2">
+      <div class="text-h5 font-weight-medium mb-2" width="400">
          Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id. 
       </div>
     </div>
