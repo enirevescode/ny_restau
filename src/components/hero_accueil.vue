@@ -43,10 +43,5 @@ export default {
 }
 </script>
 <style scoped>
-.scroll{
-   z-index: -1000;
-   border-right: 10px;
-   height: 100px;
-   border-right-color: white;
-}
+
 </style>

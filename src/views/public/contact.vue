@@ -1,9 +1,8 @@
 <template>
    <div class="bg-img-contact">
                 
-      <navbar/>
       
-      <v-sheet
+   <v-sheet
     class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4 text-white"
     elevation="0"
     height="550"
@@ -16,20 +15,22 @@
       <h1 class="text-h2 font-weight">Contact Us !</h1>
       <br>
 
-      <div class="text-h5 font-weight-medium mb-2" width="400px">
-         Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id. 
+      <div class="text-h5 font-weight-medium mb-2">
+         Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.
+        
       </div>
+    
     </div>
-    
-    <v-divider
-    :thickness="5"
-    class="border-opacity-100"
-    color="#fad390"
-    vertical
-  ></v-divider>
-    
+       
   </v-sheet>
 
+  <v-divider
+    :thickness="4"
+    class="border-opacity-50"
+    color="#fad390"
+    max-width="10"
+    vertical
+  ></v-divider>
   <div class="titre">OUR LOCATION</div>
   <div class="sous-titre"><p class="text-center">3 E 19th St, 123 Fifth Avenue, NY 10160, New York, USA</p></div>
       <br>
@@ -39,10 +40,10 @@
       <br>
       <br>
       <br>     
-      
-     
+         
      
       <card_resa/>
+      <formulaire/>
       <Footer1/>
       <router-view/>
    </div>
@@ -51,6 +52,8 @@
 <script>
 import navbar from '@/components/navbar.vue'
 import card_resa from '@/components/card_resa.vue'
+import formulaire from '@/components/formulaire.vue'
+
 import Footer1 from '@/components/Footer1.vue'
 
 export default {
@@ -59,6 +62,7 @@ export default {
    components: {
       navbar,
       card_resa,
+      formulaire,
       Footer1
    }
 }
