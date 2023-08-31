@@ -1,8 +1,8 @@
 <template>
    <div>
-      <v-toolbar height="150">
-         <v-app-bar-nav-icon><img v-bind:src="require('@/assets/logo.webp')"
-               alt="logo" /></v-app-bar-nav-icon>
+      <v-toolbar height="120">
+         <v-img v-bind:src="require('@/assets/logo.webp')"
+               alt="logo" />
 
 
          <v-spacer></v-spacer>
@@ -61,11 +61,12 @@ export default {
 <style scoped>
 header{
    background-color: transparent !important;
-   margin-left: -50px;
+   /* margin-left: -50px; */
+   position: absolute;
 }
 
 img {
-   width: 120px;
+   width: 90px;
    height: 35px;
    float: left;
    margin-left: 200px;

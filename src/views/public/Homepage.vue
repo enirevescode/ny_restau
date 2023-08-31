@@ -1,7 +1,14 @@
 <template>
    <div class="bg-img-accueil">
-                
-      <navbar/>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>        
+      
       <hero_accueil/>
       <br>
       <br>
@@ -32,7 +39,7 @@
 </template>
 
 <script>
-import navbar from '@/components/navbar.vue'
+
 import hero_accueil from '@/components/hero_accueil.vue'
 import ambiance from '@/components/ambiance.vue'
 import ourmenu from '@/components/ourmenu.vue'
@@ -48,7 +55,7 @@ export default {
    name: 'Homepage',
    component: 'Homepage',
    components: {
-      navbar,
+      
       hero_accueil,
       ambiance,
       ourmenu,
@@ -64,7 +71,7 @@ export default {
 </script>
 <style>
 .bg-img-accueil{
-   z-index: 1000;
+   /* z-index: 1000; */
    width: 100vw;
    height: 100vh;
    background-image: url('@/assets/homepage.webp');
