@@ -61,7 +61,6 @@ export default {
 <style scoped>
 header{
    background-color: transparent !important;
-   /* margin-left: -50px; */
    position: absolute;
 }
 
@@ -69,7 +68,7 @@ img {
    width: 90px;
    height: 35px;
    float: left;
-   margin-left: 200px;
+   margin-left: 250px;
    }
 
 .text-h6 {
