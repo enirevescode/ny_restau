@@ -11,7 +11,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style module>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -20,5 +20,10 @@ export default {
   color: #2c3e50;
 }
 
-
+.bg-img {
+  z-index: 1000;
+   width: 100vw;
+   height: 550px;
+   background-size: cover;
+}
 </style>

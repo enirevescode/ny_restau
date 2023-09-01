@@ -1,5 +1,5 @@
 <template>
-   <div class="bg-img-contact">
+   <div :class="bg-img" id="contact">
                 
       
    <v-sheet
@@ -58,12 +58,8 @@ export default {
 }
 </script>
 <style scoped>
-.bg-img-contact{
-   z-index: 1000;
-   width: 100vw;
-   height: 550px;
+#contact{
    background-image: url('@/assets/contact-us.webp');
-   background-size: cover;
   }
 
   .titre{

@@ -1,6 +1,6 @@
 <template>
   <v-sheet class="mb-16">
-   <div class="signature">
+   <div id="signature" class="opacity">
    <h3 class="text-h6">HOMEMADE</h3>
    <h2 class="text-h2">Signature Menu</h2>
    <p >Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit.</p><p>Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non. </p>
@@ -15,13 +15,12 @@ export default {
 }
 </script>
 <style scoped>
-.signature{
+#signature{
    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),
    url('@/assets/signature.webp');
-   opacity: 1;
-   transition: background 0.8s, border-radius 0.8s, opacity 0.8s;
    height: 397px;
 }
+
 
 .text-h2, .text-h6, p {
   color: white;

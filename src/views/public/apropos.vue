@@ -1,5 +1,5 @@
 <template>
-   <div class="about">
+   <div id="about" :class="$style.bg-img">
       
    </div>
 </template>
@@ -10,8 +10,9 @@ export default {
    component: 'apropos'
 }
 </script>
-<style>
-.about {
-   background-image: url('@/assets/about-section.webp');
+<style module>
+#about {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),
+   url('@/assets/about-section.webp');
 }
 </style>
