@@ -3,11 +3,10 @@
                 
       
    <v-sheet
-    class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4 text-white"
+    class="d-flex align-center justify-center flex-wrap text-center px-4 text-white"
     elevation="0"
-    height="550"
+    height="auto"
     rounded
-    max-width="900"
     width="100%"
     color="transparent"
   >
@@ -15,9 +14,8 @@
       <h1 class="text-h2 font-weight">Contact Us !</h1>
       <br>
 
-      <div class="text-h5 font-weight-medium mb-2">
+      <div class="text-h5 font-weight-medium mb-2 mx-16 px-16">
          Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.
-        
       </div>
     
     </div>
@@ -33,15 +31,7 @@
   ></v-divider>
   <div class="titre">OUR LOCATION</div>
   <div class="sous-titre"><p class="text-center">3 E 19th St, 123 Fifth Avenue, NY 10160, New York, USA</p></div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>     
-         
-     
+
       <card_resa/>
       <formulaire/>
       <Footer1/>
@@ -71,14 +61,14 @@ export default {
 .bg-img-contact{
    z-index: 1000;
    width: 100vw;
-   height: 100vh;
+   height: 550px;
    background-image: url('@/assets/contact-us.webp');
    background-size: cover;
   }
 
   .titre{
-   margin-top: 150px;
-   margin-bottom: 50px;
+   margin-top: 130px;
+   margin-bottom: 40px;
    letter-spacing: 2px;
    font-size: 18px;
    font-weight: 700;
