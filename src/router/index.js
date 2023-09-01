@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-//import page
 
+//import des pages /view
 import * as Public from '@/views/public'
 
 
