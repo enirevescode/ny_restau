@@ -1,33 +1,23 @@
 import { createRouter, createWebHistory } from 'vue-router'
 //import page
-import Homepage from '@/views/public/Homepage.vue'
-import Menu from '@/views/public/menu.vue'
-import contact from '@/views/public/contact.vue'
-import apropos from '@/views/public/apropos.vue'
-import resa from '@/views/public/resa.vue'
+
+import * as Public from '@/views/public'
+
 
 import redirection from '@/views/public/redirection.vue'
 
-//import composants
-import navbar from '@/components/navbar.vue'
-import hero_accueil from '@/components/hero_accueil.vue'
 
 const routes = [
 
   { path: '/',
     name: 'Homepage',
-    component: Homepage,
-    // children: [
-    //   { path: '/menu', name: 'menu', component: Menu},
-    //   { path: '/contact', name: 'contact', component: contact},
-    //   { path: '/apropos', name: 'apropos', component: apropos},
-    //   { path: '/resa', name: 'resa', component: resa},
-    // ]
+    component: Public.Homepage,
   },
-  { path: '/menu', name: 'menu', component: Menu},
-  { path: '/contact', name: 'contact', component: contact},
-  { path: '/apropos', name: 'apropos', component: apropos},
-  { path: '/resa', name: 'resa', component: resa},
+
+  { path: '/menu', name: 'menu', component: Public.Menu},
+  { path: '/contact', name: 'contact', component: Public.contact},
+  { path: '/apropos', name: 'apropos', component: Public.apropos},
+  { path: '/resa', name: 'resa', component: Public.resa},
   
   //404
   { path: '/:pathMatch(.*)*', name: 'redirection', component: redirection},
