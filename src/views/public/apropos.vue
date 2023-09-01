@@ -1,6 +1,6 @@
 <template>
-   <div>
-      apropos
+   <div class="about">
+      
    </div>
 </template>
 
@@ -10,3 +10,8 @@ export default {
    component: 'apropos'
 }
 </script>
+<style>
+.about {
+   background-image: url('@/assets/about-section.webp');
+}
+</style>
