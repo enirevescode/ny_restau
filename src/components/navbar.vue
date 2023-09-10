@@ -1,51 +1,50 @@
 <template>
    <div>
       <v-toolbar height="120">
-         <v-img v-bind:src="require('@/assets/logo.webp')"
-               alt="logo" />
+         <v-img v-bind:src="require('@/assets/logo.webp')" alt="logo" />
 
 
          <v-spacer></v-spacer>
          <v-btn>
-            <router-link class="text-h6" to="/">Accueil</router-link>
+            <router-link active-class="active" to="/">Accueil</router-link>
          </v-btn>
-        
-         <!-- <v-btn> -->
-            
-            <md-menu>
-      <md-button md-menu-trigger class="text-h6">Menu</md-button>
 
-      <md-menu-content>
-         <router-link class="text-h6" to="/menu"><md-menu-item>My Item 1</md-menu-item></router-link>
-        <md-menu-item>My Item 2</md-menu-item>
-       
-      </md-menu-content>
-    </md-menu>
+         <!-- <v-btn> -->
+
+         <md-menu>
+            <md-button md-menu-trigger class="text-h6">Menu</md-button>
+
+            <md-menu-content>
+               <router-link active-class="active" class="text-h6" to="/menu"><md-menu-item>My Item
+                     1</md-menu-item></router-link>
+               <md-menu-item>My Item 2</md-menu-item>
+
+            </md-menu-content>
+         </md-menu>
          <!-- </v-btn> -->
 
          <md-menu md-size="medium" md-align-trigger>
-      <md-button md-menu-trigger>Align with trigger</md-button>
+            <md-button md-menu-trigger>Align with trigger</md-button>
 
-      <md-menu-content>
-        <md-menu-item>My Item 1</md-menu-item>
-        <md-menu-item>My Item 2</md-menu-item>
-        <md-menu-item>My Item 3</md-menu-item>
-      </md-menu-content>
-    </md-menu>
-        
+            <md-menu-content>
+               <md-menu-item>My Item 1</md-menu-item>
+               <md-menu-item>My Item 2</md-menu-item>
+               <md-menu-item>My Item 3</md-menu-item>
+            </md-menu-content>
+         </md-menu>
+
          <v-btn>
-            <router-link class="text-h6" to="/contact">Contact</router-link>
+            <router-link active-class="active" to="/contact">Contact</router-link>
          </v-btn>
-       
+
          <v-btn>
-            <router-link class="text-h6" to="/apropos">A propos</router-link>
+            <router-link active-class="active" to="/apropos">A propos</router-link>
          </v-btn>
-        
-                  
+
+
          <v-col cols="auto">
-           <v-btn size="x-large" 
-           variant="outlined"
-           color="white"><router-link class="text-h6" to="/resa">Réservation</router-link></v-btn>
+            <v-btn size="x-large" variant="outlined" color="white"><router-link active-class="active"
+                  to="/resa">Réservation</router-link></v-btn>
          </v-col>
 
       </v-toolbar>
@@ -59,7 +58,7 @@ export default {
 </script>
 
 <style scoped>
-header{
+header {
    background-color: transparent !important;
    position: absolute;
 }
@@ -69,7 +68,15 @@ img {
    height: 35px;
    float: left;
    margin-left: 250px;
-   }
+}
+
+.active {
+   font-weight: 900;
+   color: rgb(250, 211, 144);
+   font-size: 15px;
+   text-decoration: none;
+   letter-spacing: 1.2;
+}
 
 .text-h6 {
    color: white;
@@ -78,7 +85,7 @@ img {
 }
 
 .md-menu {
-    margin: 24px;
-    color: white;
-  }
+   margin: 24px;
+   color: white;
+}
 </style>
