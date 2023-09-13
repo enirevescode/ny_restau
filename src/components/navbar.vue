@@ -1,37 +1,20 @@
 <template>
    <div>
-      <v-toolbar height="120">
-         <v-img v-bind:src="require('@/assets/logo.webp')" alt="logo" />
+      <v-toolbar height="90">
+         <v-img :src="require('@/assets/logo.webp')" alt="logo" height="50" class="ml-n16"  />
 
 
          <v-spacer></v-spacer>
+         <div class="navbar ml-n16">
          <v-btn>
             <router-link active-class="active" to="/">Accueil</router-link>
          </v-btn>
 
          <!-- <v-btn> -->
-
-         <md-menu>
-            <md-button md-menu-trigger class="text-h6">Menu</md-button>
-
-            <md-menu-content>
-               <router-link active-class="active" class="text-h6" to="/menu"><md-menu-item>My Item
-                     1</md-menu-item></router-link>
-               <md-menu-item>My Item 2</md-menu-item>
-
-            </md-menu-content>
-         </md-menu>
-         <!-- </v-btn> -->
-
-         <md-menu md-size="medium" md-align-trigger>
-            <md-button md-menu-trigger>Align with trigger</md-button>
-
-            <md-menu-content>
-               <md-menu-item>My Item 1</md-menu-item>
-               <md-menu-item>My Item 2</md-menu-item>
-               <md-menu-item>My Item 3</md-menu-item>
-            </md-menu-content>
-         </md-menu>
+            <v-btn>
+            <router-link active-class="active" to="/menu">Menu</router-link>
+         </v-btn>
+        
 
          <v-btn>
             <router-link active-class="active" to="/contact">Contact</router-link>
@@ -40,13 +23,13 @@
          <v-btn>
             <router-link active-class="active" to="/apropos">A propos</router-link>
          </v-btn>
+    </div>
 
-
-         <v-col cols="auto">
+         <v-col cols="auto" class="mr-16">
             <v-btn size="x-large" variant="outlined" color="white"><router-link active-class="active"
                   to="/resa">Réservation</router-link></v-btn>
          </v-col>
-
+  
       </v-toolbar>
    </div>
 </template>
@@ -58,6 +41,12 @@ export default {
 </script>
 
 <style scoped>
+
+.navbar {
+   display: inline-flex;
+   vertical-align: auto;
+}
+
 header {
    background-color: transparent !important;
    position: absolute;
@@ -70,6 +59,10 @@ img {
    margin-left: 250px;
 }
 
+a {
+   text-decoration: none;
+   color: white;
+}
 .active {
    font-weight: 900;
    color: rgb(250, 211, 144);
