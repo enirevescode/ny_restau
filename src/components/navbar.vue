@@ -11,27 +11,9 @@
 
          <!-- <v-btn> -->
 
-         <md-menu>
-            <md-button md-menu-trigger class="text-h6">Menu</md-button>
-
-            <md-menu-content>
-               <router-link active-class="active" class="text-h6" to="/menu"><md-menu-item>My Item
-                     1</md-menu-item></router-link>
-               <md-menu-item>My Item 2</md-menu-item>
-
-            </md-menu-content>
-         </md-menu>
-         <!-- </v-btn> -->
-
-         <md-menu md-size="medium" md-align-trigger>
-            <md-button md-menu-trigger>Align with trigger</md-button>
-
-            <md-menu-content>
-               <md-menu-item>My Item 1</md-menu-item>
-               <md-menu-item>My Item 2</md-menu-item>
-               <md-menu-item>My Item 3</md-menu-item>
-            </md-menu-content>
-         </md-menu>
+            <v-btn>
+            <router-link active-class="active" to="/menu">Menu</router-link>
+         </v-btn>
 
          <v-btn>
             <router-link active-class="active" to="/contact">Contact</router-link>
