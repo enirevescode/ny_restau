@@ -63,10 +63,16 @@ Diana Annakin
 
    </div>
 </template>
-<script>
-export default {
-   name: "card_testimonial"
-}
+<script setup>
+const temoignage = [
+          {
+        "id": 1,
+        "img": "src/assets/math.webp",
+        "alt": "portrait",
+        "name": "Emma Odinson",
+        "temoignage": "Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel"
+           }
+]
 </script>
 <style scoped>
 .testi{
