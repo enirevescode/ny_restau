@@ -10,7 +10,7 @@
     color="transparent"
   >
     <div>
-      <h1 class="text-h2 font-weight">A Really Good Place to Eat In the City of New York!</h1>
+      <h1 class="text-h2 font-weight my-16">A Really Good Place to Eat In the City of New York!</h1>
       <br>
 
       <div class="text-h6 font-weight-medium mb-2">
@@ -27,7 +27,7 @@
     </div>
     
     <v-divider
-        :thickness="5"
+        :thickness="2"
     class="border-opacity-100"
     color="#fad390"
     vertical
@@ -42,6 +42,3 @@ export default {
    name: "hero_accueil"
 }
 </script>
-<style scoped>
-
-</style>

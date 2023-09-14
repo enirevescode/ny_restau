@@ -46,7 +46,7 @@ export default {
 }
 
 #cake {
-  left: 550px;
+  left: 715px;
 }
 
 .v-sheet {
