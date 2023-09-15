@@ -60,10 +60,11 @@ export default {
 <style scoped>
 #contact{
    background-image: url('@/assets/contact-us.webp');
+   max-width: 100%;
   }
 
   .titre{
-   margin-top: 130px;
+   margin-top: 300px;
    margin-bottom: 40px;
    letter-spacing: 2px;
    font-size: 18px;
