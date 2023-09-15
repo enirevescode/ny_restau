@@ -1,3 +1,7 @@
+<img align="center" alt="GIF" src="" width="500" height="320" />
+
+
+
 # ny_restau
 
 ## Project setup
