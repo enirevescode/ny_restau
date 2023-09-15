@@ -1,3 +1,7 @@
+<img align="center" alt="photo" src="src/assets/Screenshot 2023-09-15 at 19-53-13 ny_restau.png" width="700" height="320" />
+
+
+
 # ny_restau
 
 ## Project setup
