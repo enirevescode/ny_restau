@@ -7,8 +7,7 @@
       <br>
       <br>
       <br>
-      <br>        
-      
+      <br>
       <hero_accueil/>
       <br>
       <br>

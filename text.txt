@@ -24,36 +24,49 @@
 
         </v-sheet>
       </v-col>
+      <v-col>
+
+        <v-avatar size="95" color="#f5c61c">
+         <v-img width ="80" height ="80" :src="require('@/assets/diana.png')" :aspect-ratio="1" class= "mx-auto" >
+        </v-img>
+        </v-avatar>
+
+        <v-sheet 
+        class="pt-16 px-6 mb-n16 bg-black text-h6"
+        width="367px"
+        height="319px"
+        rounded="lg"
+        >
+          
+Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel.
+Diana Annakin
+
+        </v-sheet>
+      </v-col>
+      <v-col order="first">
+        <v-avatar size="95" color="#f5c61c">
+         <v-img width ="80" height ="80" :src="require('@/assets/emma.png')" :aspect-ratio="1" class= "mx-auto" >
+        </v-img>
+        </v-avatar>
+        <v-sheet 
+        class="pt-16 px-6 mb-n16 bg-black text-h6"
+        width="367px"
+        height="319px"
+        rounded="lg"
+        >
+         Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel.
+          Emma Odinson
+        </v-sheet>
+      </v-col>
     </v-row>
   </v-container>
 
    </div>
 </template>
-<script setup>
-const temoignage = [
-          {
-        "id": 1,
-        "img": "src/assets/emma.webp",
-        "alt": "portrait",
-        "name": "Emma Odinson",
-        "temoignage": "Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel"
-           },
-           {
-        "id": 2,
-        "img": "src/assets/diana.webp",
-        "alt": "portrait",
-        "name": "Diana Annakin",
-        "temoignage": "Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel"
-           },
-           {
-        "id": 3,
-        "img": "src/assets/kyle.webp",
-        "alt": "portrait",
-        "name": "Kyle Smith",
-        "temoignage": "Rhoncus risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel"
-           },
-
-]
+<script>
+export default {
+   name: "card_testimonial"
+}
 </script>
 <style scoped>
 .testi{
