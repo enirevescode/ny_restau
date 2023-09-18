@@ -85,8 +85,8 @@ import navbar_route from '@/components/navbar_route.vue'
 export default {
 
    data: () => ({
-    
-   component: navbar_route,
+  name: ''
+  components: 'navbar_route',
 
     icons: [
        'mdi-facebook',

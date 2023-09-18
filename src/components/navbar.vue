@@ -21,7 +21,10 @@
 import navbar_route from "@/components/navbar_route.vue"
 export default {
     name: "navbar",
-    component: 'navbar_route',
+    component: "navbar",
+    components: {
+      navbar_route
+    }
  
 }
 </script>
