@@ -5,25 +5,8 @@
 
 
          <v-spacer></v-spacer>
-         <div class="navbar ml-n16">
-         <v-btn>
-            <router-link active-class="active" to="/">Accueil</router-link>
-         </v-btn>
-
-         <!-- <v-btn> -->
-
-            <v-btn>
-            <router-link active-class="active" to="/menu">Menu</router-link>
-         </v-btn>
-
-         <v-btn>
-            <router-link active-class="active" to="/contact">Contact</router-link>
-         </v-btn>
-
-         <v-btn>
-            <router-link active-class="active" to="/apropos">A propos</router-link>
-         </v-btn>
-    </div>
+         
+    <navbar_route/>
 
          <v-col cols="auto" class="mr-16">
             <v-btn size="x-large" variant="outlined" color="white"><router-link active-class="active"
@@ -35,8 +18,11 @@
 </template>
 
 <script>
+import navbar_route from "@/components/navbar_route.vue"
 export default {
-   name: "navbar"
+    name: "navbar",
+    component: 'navbar_route',
+ 
 }
 </script>
 
@@ -71,14 +57,14 @@ a {
    letter-spacing: 1.2;
 }
 
-.text-h6 {
+/* .text-h6 {
    color: white;
    font-size: 15px;
    text-decoration: none;
-}
+} */
 
-.md-menu {
+/* .md-menu {
    margin: 24px;
    color: white;
-}
+} */
 </style>

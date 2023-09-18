@@ -86,7 +86,7 @@ export default {
    name: "ambiance"
 }
 </script>
-<style>
+<style scoped>
 .v-container{
    max-width: 100%;
 }

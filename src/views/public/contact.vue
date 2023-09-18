@@ -1,6 +1,8 @@
 <template>
    <div :class="bg-img" id="contact">
-                
+   <v-img
+   src="@/assets/contact-us.webp"
+   width="100%"></v-img>
       
    <v-sheet
     class="d-flex align-center justify-center flex-wrap text-center px-4 text-white"
@@ -10,7 +12,7 @@
     width="100%"
     color="transparent"
   >
-    <div>
+    <div class="section_titre">
       <h1 class="text-h2 font-weight">Contact Us !</h1>
       <br>
 
@@ -60,15 +62,20 @@ export default {
 <style scoped>
 #contact{
    background-image: url('@/assets/contact-us.webp');
-   max-width: 100%;
+   
+   width: 100vw;
+   height: auto;
   }
-
+.section_titre{
+   margin-top: 450px;
+}
   .titre{
-   margin-top: 300px;
+   margin-top: 450px;
    margin-bottom: 40px;
    letter-spacing: 2px;
    font-size: 18px;
    font-weight: 700;
+   text-align: center;
   }
 
 .sous-titre {

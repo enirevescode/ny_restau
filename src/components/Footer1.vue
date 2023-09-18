@@ -1,6 +1,6 @@
 <template>
 <v-container class="mt-10">
-  
+
  <v-row class="bg-black">
   
 <v-col cols="3">
@@ -53,16 +53,7 @@ alt="logo" />
   <br>
   <br>
   <v-card class="bg-black ml-1" title="Quick Links">
-    <router-link v-for="link in links"
-    :key="link"
-    to="{{link}}"
-    color="white"
-    variant="text"
-    class="mx-1"
-    rounded="xl"
-    >{{ link }}
-       
-      </router-link>
+    <navbar_route/>
   </v-card>
 </v-col>
 <v-col>
@@ -90,16 +81,13 @@ Thursday, Friday, Saturday<br>
 </v-container>
 </template>
 <script>
+import navbar_route from '@/components/navbar_route.vue'
 export default {
-  
+
    data: () => ({
-    value: 0,
-    links: [
-        'Accueil',
-        'Menu',
-        'A propos',
-        'Contact',
-        ],
+    
+   component: navbar_route,
+
     icons: [
        'mdi-facebook',
        'mdi-twitter',
