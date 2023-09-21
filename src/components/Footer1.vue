@@ -1,3 +1,22 @@
+<script>
+import navbar_route from '@/components/navbar_route.vue'
+export default {
+
+   data: () => ({
+  name: '',
+  components: {
+    navbar_route
+  },
+
+    icons: [
+       'mdi-facebook',
+       'mdi-twitter',
+       'mdi-linkedin',
+       'mdi-instagram',
+      ],
+    }),
+}
+</script>
 <template>
 <v-container class="mt-10">
 
@@ -53,7 +72,10 @@ alt="logo" />
   <br>
   <br>
   <v-card class="bg-black ml-1" title="Quick Links">
-    <navbar_route/>
+    <div>
+     <navbar_route/>
+    </div>
+    
   </v-card>
 </v-col>
 <v-col>
@@ -80,23 +102,7 @@ Thursday, Friday, Saturday<br>
  </v-row>
 </v-container>
 </template>
-<script>
-import navbar_route from '@/components/navbar_route.vue'
-export default {
 
-   data: () => ({
-  name: ''
-  components: 'navbar_route',
-
-    icons: [
-       'mdi-facebook',
-       'mdi-twitter',
-       'mdi-linkedin',
-       'mdi-instagram',
-      ],
-    }),
-}
-</script>
 <style scoped>
 .v-container{
   

@@ -73,7 +73,8 @@ export default {
    /* z-index: 1000; */
    width: 100vw;
    height: 100vh;
-   background-image: url('@/assets/homepage.webp');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(102, 99, 99, 0.56)),
+   url('@/assets/homepage.webp');
    background-size: cover;
   }
 </style>

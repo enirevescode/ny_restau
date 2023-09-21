@@ -11,13 +11,14 @@
     rounded
     width="100%"
     color="transparent"
+    
   >
     <div class="section_titre">
-      <h1 class="text-h2 font-weight">Contact Us !</h1>
+      <h1 class="text-h2 font-weight">{{ page.titre }}</h1>
       <br>
 
       <div class="text-h5 font-weight-medium mb-2 mx-16 px-16">
-         Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.
+         {{ page.text }}
       </div>
     
     </div>
@@ -46,6 +47,7 @@ import navbar from '@/components/navbar.vue'
 import card_resa from '@/components/card_resa.vue'
 import formulaire from '@/components/formulaire.vue'
 
+
 import Footer1 from '@/components/Footer1.vue'
 
 export default {
@@ -56,7 +58,19 @@ export default {
       card_resa,
       formulaire,
       Footer1
-   }
+   },
+   data: ()=> ({
+      page: [
+      {
+        "id": 3,
+        "img": "@/assets/contact-us.webp",
+        "alt": "image de contact",
+        "name": "Contact",
+        "titre": "Contact Us",
+        "text": "Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id."
+   }],
+   }),
+
 }
 </script>
 <style scoped>
