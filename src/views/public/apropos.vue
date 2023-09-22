@@ -1,5 +1,5 @@
 <template>
-   <div id="about" :class="$style.bg-img">
+   <div id="about" :class="bg-img">
       
    </div>
 </template>

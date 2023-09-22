@@ -1,8 +1,8 @@
 <template>
-   <div :class="bg-img" id="contact">
+   <v-container id="contact">
    <v-img
    src="@/assets/contact-us.webp"
-   width="100%"></v-img>
+   ></v-img>
       
    <v-sheet
     class="d-flex align-center justify-center flex-wrap text-center px-4 text-white"
@@ -11,7 +11,7 @@
     rounded
     width="100%"
     color="transparent"
-    
+    :key="page.id"
   >
     <div class="section_titre">
       <h1 class="text-h2 font-weight">{{ page.titre }}</h1>
@@ -39,10 +39,10 @@
       <formulaire/>
       <Footer1/>
       <router-view/>
-   </div>
+   </v-container>
 </template>
 
-<script>
+<script >
 import navbar from '@/components/navbar.vue'
 import card_resa from '@/components/card_resa.vue'
 import formulaire from '@/components/formulaire.vue'
@@ -65,7 +65,6 @@ export default {
         "id": 3,
         "img": "@/assets/contact-us.webp",
         "alt": "image de contact",
-        "name": "Contact",
         "titre": "Contact Us",
         "text": "Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id."
    }],
@@ -74,11 +73,14 @@ export default {
 }
 </script>
 <style scoped>
+.v-container {
+   max-width: 100vw;
+}
 #contact{
    background-image: url('@/assets/contact-us.webp');
    
-   width: 100vw;
-   height: auto;
+   width: 1900px;
+   height: 850px;
   }
 .section_titre{
    margin-top: 450px;
