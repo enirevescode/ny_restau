@@ -1,9 +1,6 @@
 <template>
    <v-container id="contact">
-      
-   <v-img
-   src="@/assets/contact-us.webp"
-   ></v-img>
+
       
    <v-sheet
     class="d-flex align-center justify-center flex-wrap text-center px-4 text-white"
@@ -64,7 +61,6 @@ export default {
       page: 
       {
         "id": 3,
-        "img": "@/assets/contact-us.webp",
         "alt": "image de contact",
         "titre": "Contact Us",
         "text": "Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id."
@@ -80,7 +76,7 @@ export default {
    max-width: 100vw;
 }
 #contact{
-   background-image: url('@/assets/contact-us.webp');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),url('@/assets/contact-us.webp');
    
    width: 1900px;
    height: 850px;
@@ -103,6 +99,10 @@ export default {
    margin-left: 205px;
    margin-right: 205px;
    line-height: 1.3;
+}
+
+.v-img {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8))
 }
 </style>
  
