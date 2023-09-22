@@ -27,7 +27,7 @@
     </div>
     
     <v-divider
-        :thickness="2"
+   :thickness="2"
     class="border-opacity-100"
     color="#fad390"
     vertical

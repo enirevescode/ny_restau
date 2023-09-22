@@ -17,22 +17,17 @@
 
       <div class="text-h5 font-weight-medium mb-2 mx-16 px-16">
          {{ page.text }}
-      </div>
-    
-    </div>
-       
-  </v-sheet>
 
-  <v-divider
-    :thickness="4"
-    class="border-opacity-50"
-    color="#fad390"
-    max-width="10"
-    vertical
-  ></v-divider>
+        
+      </div>
+      
+    </div>
+  </v-sheet>
+  <section>
+  
   <div class="titre">OUR LOCATION</div>
   <div class="sous-titre"><p class="text-center">3 E 19th St, 123 Fifth Avenue, NY 10160, New York, USA</p></div>
-
+</section>
       <card_resa/>
       <formulaire/>
       <Footer1/>
@@ -79,10 +74,11 @@ export default {
    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),url('@/assets/contact-us.webp');
    
    width: 1900px;
-   height: 850px;
+   height: 650px;
   }
+
 .section_titre{
-   margin-top: 450px;
+   margin-top: 350px;
 }
   .titre{
    margin-top: 450px;
@@ -101,8 +97,5 @@ export default {
    line-height: 1.3;
 }
 
-.v-img {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8))
-}
 </style>
  
