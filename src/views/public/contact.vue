@@ -1,7 +1,5 @@
 <template>
-   <v-container id="contact">
-
-      
+   <v-container id="contact">      
    <v-sheet
     class="d-flex align-center justify-center flex-wrap text-center px-4 text-white"
     elevation="0"
@@ -61,9 +59,7 @@ export default {
         "text": "Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id."
    }, 
 
-   }),
-  
-  
+   }),  
 }
 </script>
 <style scoped>

@@ -40,4 +40,17 @@
    </v-container>
 </template>
 <script>
+export default {
+  data: ()=> ({
+      page: 
+      {
+        "id": 2,
+        "alt": "image du menu",
+        "titre": "Our Menu",
+        "text": "Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id."
+   }, 
+
+   }),
+}
+
 </script>
