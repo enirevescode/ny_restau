@@ -1,5 +1,6 @@
 <template>
    <v-container id="contact">
+      
    <v-img
    src="@/assets/contact-us.webp"
    ></v-img>
@@ -60,16 +61,18 @@ export default {
       Footer1
    },
    data: ()=> ({
-      page: [
+      page: 
       {
         "id": 3,
         "img": "@/assets/contact-us.webp",
         "alt": "image de contact",
         "titre": "Contact Us",
         "text": "Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id."
-   }],
-   }),
+   }, 
 
+   }),
+  
+  
 }
 </script>
 <style scoped>
