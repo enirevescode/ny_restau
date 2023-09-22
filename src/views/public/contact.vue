@@ -69,7 +69,6 @@ export default {
 #contact{
    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),url('@/assets/contact-us.webp');
    
-   width: 1900px;
    height: 650px;
   }
 

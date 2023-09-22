@@ -26,4 +26,8 @@ export default {
    height: 550px;
    background-size: cover;
 }
+
+.v-container {
+  max-width: 100%;
+}
 </style>
