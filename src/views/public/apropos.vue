@@ -20,9 +20,19 @@
    
    </div>
  </v-sheet>
- 
- <div class="titre">OUR LOCATION</div>
- <div class="sous-titre"><p class="text-center">3 E 19th St, 123 Fifth Avenue, NY 10160, New York, USA</p></div>
+ <v-row class="text">
+   <v-col cols="3"><h2 class="pa-5">OUR LOCATION</h2></v-col>
+   <v-col cols="9">
+      <p class="text-left pa-5">Mattis nisi, ultricies nunc pellentesque pulvinar malesuada habitant in. Sed sagittis lectus ut euismod. Mauris, dui viverra a tincidunt tellus tempus amet. Posuere massa at ornare nulla facilisi. Dignissim volutpat velit ut dignissim aliquet nisl, pretium, viverra bibendum.</p>
+      <p class="text-left pa-5">Consequat facilisi ultricies integer eu nibh pellentesque. Morbi ac sit ultrices quis dignissim lectus. Pellentesque nisl, ac, bibendum arcu vestibulum aliquam.</p>
+   </v-col>
+</v-row>
+<section>
+   <v-row>
+      <v-col class="icon"></v-col>
+      <v-col class="img"></v-col>
+   </v-row>
+</section>
 
      <card_resa/>
      <formulaire/>
@@ -40,9 +50,7 @@ export default {
       page: 
       {
          "id": 4,
-       
         "alt": "image de a propos",
-        
         "titre": "About Us",
         "text": "Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id."
    }, 
@@ -62,20 +70,13 @@ export default {
 .section_titre{
    margin-top: 350px;
 }
-  .titre{
-   margin-top: 450px;
-   margin-bottom: 40px;
-   letter-spacing: 2px;
-   font-size: 18px;
-   font-weight: 700;
-   text-align: center;
-  }
 
-.sous-titre {
-   font-size: 5rem;
-   font-weight: 700;
-   margin-left: 205px;
-   margin-right: 205px;
+.text {
+   margin-top: 300px;
+   font-size: 1.5rem;
+   font-weight: 100;
+   /* margin-left: 205px; */
+   /* margin-right: 205px; */
    line-height: 1.3;
 }
 
