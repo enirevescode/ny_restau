@@ -23,7 +23,9 @@
   <div class="sous-titre"><p class="text-center">Lorem sollicitudin quis amet, pellentesque et proin. Venenatis iaculis nibh neque sit ullamcorper ac dictumst. Amet dignissim nunc gravida eu vestibulum elit. In lorem ornare sollicitudin aliquet nunc cum massa.</p></div>
 
       <carte_menu/>
+      <div class="resa">
       <card_resa/>
+      </div>
       <formulaire/>
       <Footer1/>
       <!-- <router-view/> -->
@@ -31,8 +33,10 @@
 </template>
 <script>
 import carte_menu from '@/components/carte_menu.vue'
+import card_resa from '@/components/card_resa.vue'
+
 export default {
-  components: {carte_menu},
+  components: {carte_menu, card_resa},
   data: ()=> ({
       page: 
       {
@@ -74,6 +78,10 @@ max-width: 100%;
    margin-left: 205px;
    margin-right: 205px;
    line-height: 1.3;
+}
+
+.resa {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),url('@/assets/topview.webp');
 }
 
 </style>
