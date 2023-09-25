@@ -42,14 +42,11 @@
             </v-card>
          </v-col>
 
-         
-
          <v-col max-width="520" class="mb-6">
             <v-card max-width="488" class="mb-10">
                <v-card-item>
                   <div>
                      <v-img width ="520" height ="360" :src="require('@/assets/cozy-place.webp')" :aspect-ratio="1" cover>
-
                      </v-img>
                     
                         <div class="font-weight-bold text-left mt-2 mb-2">Cozy Place</div>
@@ -87,7 +84,5 @@ export default {
 }
 </script>
 <style scoped>
-.v-container{
-   max-width: 100%;
-}
+
 </style>

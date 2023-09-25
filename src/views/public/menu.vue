@@ -1,6 +1,5 @@
 <template>
-    <v-container id="menu">
-      
+    <v-container id="menu">  
    <v-sheet
     class="d-flex align-center justify-center flex-wrap text-center px-4 text-white"
     elevation="0"
@@ -8,7 +7,6 @@
     rounded
     width="100%"
     color="transparent"
-   
   >
     <div class="section_titre">
       <h1 class="text-h2 font-weight">{{ page.titre }}</h1>
@@ -21,17 +19,20 @@
     </div>
   </v-sheet>
   
-  <div class="titre">OUR LOCATION</div>
-  <div class="sous-titre"><p class="text-center">3 E 19th St, 123 Fifth Avenue, NY 10160, New York, USA</p></div>
+  <div class="titre">Appetizer</div>
+  <div class="sous-titre"><p class="text-center">Lorem sollicitudin quis amet, pellentesque et proin. Venenatis iaculis nibh neque sit ullamcorper ac dictumst. Amet dignissim nunc gravida eu vestibulum elit. In lorem ornare sollicitudin aliquet nunc cum massa.</p></div>
 
+      <carte_menu/>
       <card_resa/>
       <formulaire/>
       <Footer1/>
-      <router-view/>
+      <!-- <router-view/> -->
    </v-container>
 </template>
 <script>
+import carte_menu from '@/components/carte_menu.vue'
 export default {
+  components: {carte_menu},
   data: ()=> ({
       page: 
       {
@@ -51,8 +52,7 @@ max-width: 100%;
 
 #menu {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)), url('@/assets/signature.webp');
-
-  width: 1900px;
+  background-size: cover;
   height: 650px;
 }
 
@@ -69,8 +69,8 @@ max-width: 100%;
   }
 
 .sous-titre {
-   font-size: 5rem;
-   font-weight: 700;
+   font-size: 1.5rem;
+   font-weight: 100;
    margin-left: 205px;
    margin-right: 205px;
    line-height: 1.3;

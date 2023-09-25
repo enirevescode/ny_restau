@@ -62,7 +62,6 @@
  <style scoped>
  #contact{
     background-image: url('@/assets/contact-us.webp');
-    
     width: 100vw;
     height: auto;
    }

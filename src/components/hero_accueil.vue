@@ -1,4 +1,3 @@
-
 <template>
   <v-sheet
     class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4 text-white"
@@ -22,8 +21,6 @@
       </p>
 
       <v-btn variant="text">Go to Login</v-btn>
-
-      
     </div>
     
     <v-divider
@@ -35,8 +32,6 @@
     
   </v-sheet>
 </template>
-
-
 <script>
 export default {
    name: "hero_accueil"

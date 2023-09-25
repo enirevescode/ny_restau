@@ -42,7 +42,6 @@
 import hero_accueil from '@/components/hero_accueil.vue'
 import ambiance from '@/components/ambiance.vue'
 import ourmenu from '@/components/ourmenu.vue'
-import carte_menu from '@/components/carte_menu.vue'
 import card_signature from '@/components/card_signature.vue'
 import grid_photo from '@/components/grid_photo.vue'
 import our_teams from '@/components/our_teams.vue'
@@ -58,7 +57,6 @@ export default {
       hero_accueil,
       ambiance,
       ourmenu,
-      carte_menu,
       card_signature,
       grid_photo,
       our_teams,
@@ -70,7 +68,6 @@ export default {
 </script>
 <style>
 .bg-img-accueil{
-   /* z-index: 1000; */
    width: 100vw;
    height: 100vh;
    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(102, 99, 99, 0.56)),
