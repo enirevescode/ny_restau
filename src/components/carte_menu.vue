@@ -1,15 +1,15 @@
 <template>
-   <v-container class="mt-15" >
+   <v-container class="mt-16 mb-16">
       <v-row align="strech" no-gutters style="height: 120px;" v-for="menu in menus" :key="menu.id">
         <v-col>
-          <v-sheet class="px-3 mx-6" color="black">
+          <v-sheet class="px-3 mx-6 mt-6" color="black">
             <p class="text-h6 text-left">{{menu.plat}} - {{ menu.prix }}</p>
             <p class="text-subtitle-1 text-left" color="#7a7a7a">{{ingredient}}</p>
             <v-divider class="border-opacity-50 ml-1 mr-6 my-5" color="white" inset></v-divider>
           </v-sheet>
         </v-col>
         <v-col>
-          <v-sheet class="px-3 mx-6" color="black">
+          <v-sheet class="px-3 mx-6 mt-6" color="black">
             <p class="text-h6 text-left">{{menu.plat}} - {{ menu.prix }}</p>
             <p class="text-subtitle-1 text-left" color="#7a7a7a">{{ingredient}}</p>
             <v-divider class="border-opacity-50 ml-1 mr-6 my-5" color="white" inset></v-divider>

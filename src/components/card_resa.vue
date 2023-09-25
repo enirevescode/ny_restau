@@ -1,6 +1,7 @@
 <template>
   <v-sheet
     class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4"
+    color="transparent"
     elevation="0"
     height="550"
     rounded
@@ -8,7 +9,7 @@
     width="100%"
   >
     <div>
-      <h1 class="text-h4 font-weight-black">Réservation</h1>
+      <h1 class="text-h4 font-weight-black mt-16">Réservation</h1>
 
       <div class="text-h6 font-weight-medium my-2">
         Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit. Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non.
@@ -21,7 +22,7 @@
 
       <p class="text-h3 my-4">
         
-       <v-icon></v-icon>Telephone Reservations
+       <v-icon icon="mdiPhone"></v-icon>Telephone Reservations
       </p>
 <p class="tel">12 34 56 7829</p>
       </div>

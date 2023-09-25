@@ -78,9 +78,7 @@
           </v-card-actions>
         </v-row>
       </v-expand-transition>
-
     </v-container>
-
 
   </v-container>
 </template>

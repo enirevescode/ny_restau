@@ -15,28 +15,29 @@
       <div class="text-h5 font-weight-medium mb-2 mx-16 px-16">
         {{ page.text }}
       </div>
-    
     </div>
   </v-sheet>
   
-  <div class="titre">Appetizer</div>
-  <div class="sous-titre"><p class="text-center">Lorem sollicitudin quis amet, pellentesque et proin. Venenatis iaculis nibh neque sit ullamcorper ac dictumst. Amet dignissim nunc gravida eu vestibulum elit. In lorem ornare sollicitudin aliquet nunc cum massa.</p></div>
+      <appetizer/>
 
       <carte_menu/>
-      <div class="resa">
+      <div class="resa mt-n16 mb-n11">
       <card_resa/>
       </div>
-      <formulaire/>
+   
       <Footer1/>
-      <!-- <router-view/> -->
+
    </v-container>
 </template>
 <script>
+import appetizer from '@/components/appetizer.vue'
 import carte_menu from '@/components/carte_menu.vue'
 import card_resa from '@/components/card_resa.vue'
 
+import Footer1 from '@/components/Footer1.vue'
+
 export default {
-  components: {carte_menu, card_resa},
+  components: {appetizer,carte_menu, card_resa, Footer1},
   data: ()=> ({
       page: 
       {
@@ -67,7 +68,7 @@ max-width: 100%;
    margin-top: 450px;
    margin-bottom: 40px;
    letter-spacing: 2px;
-   font-size: 18px;
+   font-size: 45px;
    font-weight: 700;
    text-align: center;
   }
@@ -82,6 +83,8 @@ max-width: 100%;
 
 .resa {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),url('@/assets/topview.webp');
+  background-size: cover;
+  color: white;
 }
 
 </style>
