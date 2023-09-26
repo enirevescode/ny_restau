@@ -82,11 +82,6 @@ export default {
   max-width: 100%;
 }
 
-/* .text-center { */
-  /* margin-left: 260px;
-  margin-right: 260px;
-} */
-
 .text-subtitle-1 {
   color: #7a7a7a;
 }
