@@ -18,13 +18,14 @@
         <v-img
         :src="require('@/assets/plate-of-cookie.webp')"
         height="100"
+        class="img"
         ></v-img>
     </v-col>
     <v-col cols="6" class="float-left mt-6">
         <div class="titre">SIGNATURE</div>
         <div class="font-weight-bold">Strawberry And Grapes Cake</div>
         <div class="text-disabled">In lorem ornare sollicitudin aliquet nunc cum massa.</div>
-        <div class="font-weight-bold">8.00</div>
+        <div class="font-weight-bold">9.00</div>
     </v-col>
 </v-col>
 </v-row>
@@ -36,12 +37,13 @@ export default {
 }
 </script>
 <style scoped>
+.v-container {
+    max-width: 100%;
+}
 
 .appetizer{
-    margin-top: 164px;
-    left: 0;
+    margin-top: 171px;
     padding: 0;
-    margin-left: 0;
 }
 
 .titre {
@@ -49,5 +51,15 @@ export default {
     font-weight: 500;
 }
 
-
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0% 10% 0% 16%;
+}
+.text-left {
+    margin: 0% 10% 0% 16%;
+}
+.img {
+    margin: 0% 10% 0% 56%;
+}
 </style>
