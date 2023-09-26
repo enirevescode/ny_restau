@@ -1,6 +1,6 @@
 <template>
    <v-container class="my-16 mx-16">
-      <v-row align="strech" no-gutters style="height: 150px;" v-for="menu in menus" :key="menu.id">
+      <v-row align="strech" no-gutters style="height: 120px;" v-for="menu in menus" :key="menu.id">
         <v-col>
           <v-sheet class="px-3 mx-6 mt-6" color="black">
             <p class="text-h6 text-left">{{menu.plat}} - {{ menu.prix }}</p>
@@ -79,7 +79,7 @@ export default {
 <style scoped>
 .v-container {
   background-color: black;
-  max-width: 100%;
+  padding: 104px 104px 104px 104px;
 }
 
 .text-subtitle-1 {
