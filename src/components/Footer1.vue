@@ -28,7 +28,7 @@ export default {
   <br>
   <br>
   <br>
-  <v-card class="bg-black ml-1">
+  <v-card class="bg-transparent ml-1">
 <v-img 
 v-bind:src="require('@/assets/logo.webp')"
 :width="120"
@@ -105,10 +105,7 @@ Thursday, Friday, Saturday<br>
 
 <style scoped>
 .v-container{
-  
   max-width: 100%;
-  
-}
-
- 
+  background-color: "#1a1a1a";
+} 
 </style>

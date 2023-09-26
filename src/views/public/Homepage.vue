@@ -32,6 +32,7 @@
       <our_teams/>
       <card_testimonial/>
       <card_resa/>
+      <card_img_cake/>
       <Footer1/>
       <!-- <router-view/> -->
    </div>
@@ -47,6 +48,7 @@ import grid_photo from '@/components/grid_photo.vue'
 import our_teams from '@/components/our_teams.vue'
 import card_testimonial from '@/components/card_testimonial.vue'
 import card_resa from '@/components/card_resa.vue'
+import card_img_cake from '@/components/card_img_cake.vue'
 import Footer1 from '@/components/Footer1.vue'
 
 export default {
@@ -62,6 +64,7 @@ export default {
       our_teams,
       card_testimonial,
       card_resa,
+      card_img_cake,
       Footer1
    }
 }

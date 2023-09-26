@@ -37,6 +37,9 @@ export default {
 }
 </script>
 <style scoped>
+.v-container {
+    max-width: 100%;
+}
 
 .appetizer{
     margin-top: 171px;

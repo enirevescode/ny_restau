@@ -27,12 +27,12 @@
 <p class="tel">12 34 56 7829</p>
       </div>
 
-      <v-img
+      <!-- <v-img
       :src="require('@/assets/cake.webp')"
       width="275"
       height="400"
       id="cake"
-      ></v-img>
+      ></v-img> -->
   </v-sheet>
 
 </template>

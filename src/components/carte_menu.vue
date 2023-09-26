@@ -79,7 +79,7 @@ export default {
 <style scoped>
 .v-container {
   background-color: black;
-  padding: 104px 104px 104px 104px;
+  padding: 104px 104px 104px 104px!important;
 }
 
 .text-subtitle-1 {
