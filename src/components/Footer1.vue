@@ -31,7 +31,7 @@ export default {
       :src="require('@/assets/logo.webp')"
       :width="120"
       alt="logo" />
-      <v-card-text class="text-justify">
+      <v-card-text class="text-justify" variant="flat">
         Egestas sit in lobortis duis viverra enim eros ornare. Et tincidunt pretium curabitur vehicula turpis adipiscing donec. Et ut morbi magna quis purus aliquet.
       </v-card-text>
       <v-btn
@@ -50,16 +50,16 @@ export default {
         <br>
         <br>
         <br>
-        <v-card class="bg-transparent ml-1" title="Our Location">
+        <v-card class="bg-transparent ml-1" variant="flat">
+          <v-card-title>Our Location</v-card-title>
           <div class="text-left">
             <p> 3 E 19th St, 123 Fifth Avenue,</p>
             <p>NY 10160, New York, USA </p>
             <p>1 234 567 890</p>
           </div>
           
-          
         <v-card-actions>
-          <v-btn>Get location</v-btn>
+          <v-btn variant="outlined" color="white">Get location</v-btn>
         </v-card-actions>
       </v-card>
       </v-col>
@@ -69,7 +69,8 @@ export default {
         <br>
         <br>
         <br>
-        <v-card class="bg-transparent ml-1" title="Quick Links">
+        <v-card class="bg-transparent ml-1" variant="flat">
+          <v-card-title>Quick Links</v-card-title>
           <div>
           <navbar_route/>
           </div>
@@ -82,7 +83,8 @@ export default {
         <br>
         <br>
         <br>
-        <v-card title="Opening Hours" class="bg-transparent">
+        <v-card class="bg-transparent ml-1" variant="flat">
+          <v-card-title>Opening Hours</v-card-title>
           <div >
       <p>
 
@@ -107,7 +109,7 @@ export default {
   background-color: #1a1a1a;
 }
 
-.v-card-text, .v-card-item, p {
+.v-card-text, p, .v-card-title {
   color: white;
 }
 </style>
