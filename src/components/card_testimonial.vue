@@ -11,7 +11,8 @@
         <img width ="80" height ="80" :src="temoignage.img" :aspect-ratio="1" class="mx-auto"/>
        </v-avatar>
        <v-sheet 
-       class="pt-16 px-6 mb-n16 bg-black"
+       class="pt-16 px-6 mb-n16"
+       color= "#1a1a1a"
        width="367px"
        height="320px"
        rounded="lg"
@@ -101,5 +102,9 @@ const temoignages = [
   text-align: justify;
   font-size: 18px;
   font-weight: 400;
+}
+
+p {
+  color: white;
 }
 </style>
