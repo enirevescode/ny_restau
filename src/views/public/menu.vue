@@ -19,8 +19,10 @@
   </v-sheet>
   
       <appetizer/>
+     
+      <carte_menu category="appetizer"/>
 
-      <carte_menu/>
+      
       <div class="resa mt-n16 mb-n11">
       <card_resa/>
       </div>
@@ -47,6 +49,10 @@ export default {
         "text": "Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id."
    }, 
    }),
+
+   props: {
+    category: String
+   }
 }
 
 </script>
