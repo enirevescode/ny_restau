@@ -28,8 +28,9 @@
 </section>
       <card_resa/>
       <formulaire/>
+      <card_img_cake/>
       <Footer1/>
-      <router-view/>
+
    </v-container>
 </template>
 
@@ -37,6 +38,7 @@
 import navbar from '@/components/navbar.vue'
 import card_resa from '@/components/card_resa.vue'
 import formulaire from '@/components/formulaire.vue'
+import card_img_cake from '@/components/card_img_cake.vue'
 
 
 import Footer1 from '@/components/Footer1.vue'
@@ -48,6 +50,7 @@ export default {
       navbar,
       card_resa,
       formulaire,
+      card_img_cake,
       Footer1
    },
    data: ()=> ({
@@ -65,6 +68,9 @@ export default {
 <style scoped>
 .v-container {
    max-width: 100vw;
+   background-color: #e9ecef;
+   margin: 0;
+   padding: 0;
 }
 #contact{
    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),url('@/assets/contact-us.webp');
