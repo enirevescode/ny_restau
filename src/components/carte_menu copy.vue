@@ -1,6 +1,6 @@
 <template>
    <v-container class="my-16 mx-16">
-      <v-row align="strech" no-gutters style="height: 120px;" v-for="menu in menus" :key="menu.id">
+      <v-row align="strech" no-gutters style="height: 120px;" v-for="menu in category.menus" :key="menu.id">
         <v-col>
           <v-sheet class="px-3 mx-6 mt-6" color="transparent">
             <p class="text-h6 text-left">{{menu.plat}} - {{ menu.prix }}</p>

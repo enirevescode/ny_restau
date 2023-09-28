@@ -20,9 +20,9 @@
   
       <appetizer/>
      
-      <carte_menu category="appetizer"/>
+      <carte_menu v-for="menu in category"/>
 
-      
+
       <div class="resa mt-n16 mb-n11">
       <card_resa/>
       </div>
@@ -51,7 +51,8 @@ export default {
    }),
 
    props: {
-    category: String
+    category: String,
+    // menu: String,
    }
 }
 

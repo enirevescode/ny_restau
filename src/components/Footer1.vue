@@ -1,5 +1,6 @@
 <script>
 import navbar_route from '@/components/navbar_route.vue'
+import {RouterLink} from 'vue-router'
 export default {
 
    data: () => ({
@@ -71,8 +72,11 @@ export default {
         <br>
         <v-card class="bg-transparent ml-1" variant="flat">
           <v-card-title>Quick Links</v-card-title>
-          <div>
-          <navbar_route/>
+          <div class="navbar">
+            <router-link active-class="active" to="/">Accueil</router-link>
+            <router-link active-class="active" to="/menu">Menu</router-link>
+            <router-link active-class="active" to="/contact">Contact</router-link>
+            <router-link active-class="active" to="/apropos">A propos</router-link>
           </div>
           
         </v-card>
@@ -111,5 +115,24 @@ export default {
 
 .v-card-text, p, .v-card-title {
   color: white;
+}
+
+/* NavBar */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+.active {
+   font-weight: 900;
+   color: rgb(250, 211, 144);
+   font-size: 15px;
+   text-decoration: none;
+   letter-spacing: 1.2;
 }
 </style>
