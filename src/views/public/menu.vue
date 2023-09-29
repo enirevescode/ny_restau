@@ -21,9 +21,7 @@
       <appetizer/>
      
       <div>
-      <carte_menu
-      v-for="(menu, category) in menus"
-      :key="menu.id"/>
+      <carte_menu/>
       </div>
 
       <div class="resa mt-n16 mb-n11">

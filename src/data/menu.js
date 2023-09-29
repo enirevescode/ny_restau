@@ -1,4 +1,4 @@
-[
+    const menu = [
     {
         "id": 1,
         "category": "appetizer",
@@ -98,3 +98,5 @@
         "ingredient": "Lentilles Vertes / Saucisses"
           }
 ]
+
+export default menu;
