@@ -20,11 +20,8 @@
   
       <appetizer/>
      
-      <div>
-      <carte_menu
-      v-for="(menu, category) in menus"
-      :key="menu.id"/>
-      </div>
+      <carte_menu v-for="menu in category"/>
+
 
       <div class="resa mt-n16 mb-n11">
       <card_resa/>
@@ -34,31 +31,15 @@
 
    </v-container>
 </template>
-<script>
+<script setup>
+import menu from "../data/page.json"
 import appetizer from '@/components/appetizer.vue'
 import carte_menu from '@/components/carte_menu.vue'
-import menu from '@/data/menu.json'
 import card_resa from '@/components/card_resa.vue'
 
 import Footer1 from '@/components/Footer1.vue'
 
-export default {
-  components: {appetizer,carte_menu, menu, card_resa, Footer1},
-  data: ()=> ({
-      page: 
-      {
-        "id": 2,
-        "alt": "image du menu",
-        "titre": "Our Menu",
-        "text": "Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id."
-   }, 
-   }),
 
-   props: {
-    category: String,
-    menu: String,
-   }
-}
 
 </script>
 <style scoped>
@@ -97,6 +78,5 @@ max-width: 100%;
   background-size: cover;
   color: white;
 }
-
 
 </style>

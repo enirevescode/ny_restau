@@ -1,8 +1,8 @@
 <template>
    <v-container class="my-16 mx-16">
-      <v-row align="strech" no-gutters style="height: 120px;" v-for="menu in menus" :key="menu.id">
+      <v-row align="strech" no-gutters style="height: 120px;">
         <v-col>
-          <v-sheet class="px-3 mx-6 mt-6" color="transparent">
+          <v-sheet class="px-3 mx-6 mt-6" color="transparent" :id=menu.id+menu.category>
             <p class="text-h6 text-left">{{menu.plat}} - {{ menu.prix }}</p>
             <p class="text-subtitle-1 text-left" color="#7a7a7a">{{menu.ingredient}}</p>
             <v-divider class="border-opacity-50 ml-1 mr-6 my-5" color="#7a7a7a" inset></v-divider>
