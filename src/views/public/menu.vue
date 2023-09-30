@@ -33,7 +33,7 @@
 import appetizer from '@/components/appetizer.vue'
 import carte_menu from '@/components/carte_menu.vue'
 import card_resa from '@/components/card_resa.vue'
-
+import Data_menu from '@/data/Data_menu.json'
 import Footer1 from '@/components/Footer1.vue'
 
 export default {
