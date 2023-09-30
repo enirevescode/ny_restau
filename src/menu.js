@@ -96,7 +96,7 @@
         "plat": "Saucisses - Lentilles",
         "prix": "20.00",
         "ingredient": "Lentilles Vertes / Saucisses"
-          }
+          },
 ]
 
-export default menu;
+module.exports = menu;
