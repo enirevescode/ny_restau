@@ -1,9 +1,7 @@
 <template>
    <div>
       <v-toolbar height="90">
-         <v-img :src="require('@/assets/logo.webp')" alt="logo" height="50" class="ml-n16"  />
-
-
+         <v-img :src="require('@/assets/logo.webp')" alt="logo" height="50" class="ml-n16"/>
          <v-spacer></v-spacer>
          
     <navbar_route/>
@@ -25,12 +23,10 @@ export default {
     components: {
       navbar_route
     }
- 
 }
 </script>
 
 <style scoped>
-
 .navbar {
    display: inline-flex;
    vertical-align: auto;
@@ -59,15 +55,4 @@ a {
    text-decoration: none;
    letter-spacing: 1.2;
 }
-
-/* .text-h6 {
-   color: white;
-   font-size: 15px;
-   text-decoration: none;
-} */
-
-/* .md-menu {
-   margin: 24px;
-   color: white;
-} */
 </style>

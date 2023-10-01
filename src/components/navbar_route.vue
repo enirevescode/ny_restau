@@ -3,27 +3,23 @@
      
       <div class="navbar ml-n16">
          <v-btn>
-            <router-link active-class="active" to="/">Accueil</router-link>
+            <RouterLink active-class="active" to="/">Accueil</RouterLink>
          </v-btn>
-
-         <!-- <v-btn> -->
-
          <v-btn>
-            <router-link active-class="active" to="/menu">Menu</router-link>
+            <RouterLink active-class="active" to="/menu">Menu</RouterLink>
          </v-btn>
-
          <v-btn>
-            <router-link active-class="active" to="/contact">Contact</router-link>
+            <RouterLink active-class="active" to="/contact">Contact</RouterLink>
          </v-btn>
-
          <v-btn>
-            <router-link active-class="active" to="/apropos">A propos</router-link>
+            <RouterLink active-class="active" to="/apropos">A propos</RouterLink>
          </v-btn>
       </div>
    </div>
 </template>
 
 <script>
+import { RouterLink } from 'vue-router';
 export default {
    name: "navbar_route"
 }
