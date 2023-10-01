@@ -104,6 +104,22 @@ export default {
 </template>
 
 <style scoped>
+.navbar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+a {
+   text-decoration: none;
+   color: white;
+}
+.active {
+   font-weight: 900;
+   color: rgb(250, 211, 144);
+   font-size: 15px;
+   text-decoration: none;
+   letter-spacing: 1.2;
+}
 .v-row, .v-container {
   max-width: 100%;
   background-color: #1a1a1a;
