@@ -66,7 +66,7 @@ export default {
 </script>
 <template>
    <v-container class="my-16 mx-16">
-      <v-row align-content='stretch' no-gutters style="height: 120px;" v-for="entree in entrees" :key="entree.id">
+      <v-row align-content='stretch' no-gutters style="height: 110px;" v-for="entree in entrees" :key="entree.id">
         <v-col cols="6" v-for="n in 2">
           <v-sheet class="px-3 mx-6 mt-6" color="transparent">
             <p class="text-h6 text-left"> {{ entree.plat }} - {{entree.prix }}€</p>
@@ -81,9 +81,9 @@ export default {
 <style scoped>
 .v-container {
   background-color: #1a1a1a;
-  padding: 50px 30px 50px 30px!important;
-  margin: auto!important;
-  width: 90rem;
+  padding: 50px 50px 50px 50px!important;
+  margin: auto !important;;
+  width: 100rem;
 }
 
 .text-subtitle-1 {
@@ -92,5 +92,6 @@ export default {
 
 .text-h6 {
   color: white;
+  font-weight: 200;
 }
 </style>
