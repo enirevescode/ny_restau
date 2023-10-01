@@ -1,8 +1,9 @@
 <script>
 import navbar_route from '@/components/navbar_route.vue'
+import { RouterLink } from 'vue-router';
 export default {
 
-   data: () => ({
+  data: () => ({
   name: '',
   components: {
     navbar_route
@@ -27,13 +28,13 @@ export default {
         <br>
         <br>
         <v-card class="bg-transparent ml-1">
-      <v-img 
-      :src="require('@/assets/logo.webp')"
-      :width="120"
-      alt="logo" />
-      <v-card-text class="text-justify" variant="flat">
-        Egestas sit in lobortis duis viverra enim eros ornare. Et tincidunt pretium curabitur vehicula turpis adipiscing donec. Et ut morbi magna quis purus aliquet.
-      </v-card-text>
+          <v-img 
+            :src="require('@/assets/logo.webp')"
+            :width="120"
+            alt="logo" />
+              <v-card-text class="text-justify" variant="flat">
+                Egestas sit in lobortis duis viverra enim eros ornare. Et tincidunt pretium curabitur vehicula turpis adipiscing donec. Et ut morbi magna quis purus aliquet.
+              </v-card-text>
       <v-btn
               v-for="icon in icons"
               :key="icon"
@@ -57,7 +58,6 @@ export default {
             <p>NY 10160, New York, USA </p>
             <p>1 234 567 890</p>
           </div>
-          
         <v-card-actions>
           <v-btn variant="outlined" color="white">Get location</v-btn>
         </v-card-actions>
@@ -71,10 +71,12 @@ export default {
         <br>
         <v-card class="bg-transparent ml-1" variant="flat">
           <v-card-title>Quick Links</v-card-title>
-          <div>
-          <navbar_route/>
+          <div class="navbar">
+            <router-link active-class="active" to="/">Accueil</router-link>
+            <router-link active-class="active" to="/menu">Menu</router-link>
+            <router-link active-class="active" to="/contact">Contact</router-link>
+            <router-link active-class="active" to="/apropos">A propos</router-link>
           </div>
-          
         </v-card>
       </v-col>
       <v-col>
@@ -86,16 +88,15 @@ export default {
         <v-card class="bg-transparent ml-1" variant="flat">
           <v-card-title>Opening Hours</v-card-title>
           <div >
-      <p>
+              <p>
+              Sunday to Wednesday<br>
 
-      Sunday to Wednesday<br>
+              9AM - 10.30PM<br><br>
 
-      9AM - 10.30PM<br><br>
+              Thursday, Friday, Saturday<br>
 
-      Thursday, Friday, Saturday<br>
-
-      9AM - 12.30AM
-      </p>
+              9AM - 12.30AM
+              </p>
           </div>
         </v-card>
       </v-col>

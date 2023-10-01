@@ -49,7 +49,6 @@ export default {
 #cake {
   left: 715px;
 }
-
 .v-sheet {
   margin-top: 190px;
 }
