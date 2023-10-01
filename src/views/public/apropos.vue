@@ -1,19 +1,16 @@
 <template>
-   <v-container id="about" :alt= "page.alt">
-     
-  <v-sheet
-   class="d-flex align-center justify-center flex-wrap text-center px-4 text-white"
-   elevation="0"
-   height="auto"
-   rounded
-   width="100%"
-   color="transparent"
-  
- >
+   <v-container id="about" :alt= "page.alt">  
+      <v-sheet
+         class="d-flex align-center justify-center flex-wrap text-center px-4 text-white"
+         elevation="0"
+         height="auto"
+         rounded
+         width="100%"
+         color="transparent"
+      >
    <div class="section_titre">
      <h1 class="text-h2 font-weight">{{ page.titre }}</h1>
      <br>
-
      <div class="text-h5 font-weight-medium mb-2 mx-16 px-16">
        {{ page.text }}
      </div>
@@ -42,10 +39,14 @@
 </template>
 
 <script>
+import card_resa from '@/components/card_resa.vue'
+import formulaire from '@/components/formulaire.vue'
+import Footer1 from '@/components/Footer1.vue'
+
 export default {
    name: 'apropos',
    component: 'apropos',
-
+   components: { card_resa, formulaire, Footer1},
    data: ()=> ({
       page: 
       {
