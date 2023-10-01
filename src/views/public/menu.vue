@@ -1,39 +1,39 @@
 <template>
-    <v-container id="menu">  
-   <v-sheet
-    class="d-flex align-center justify-center flex-wrap text-center px-4 text-white"
-    elevation="0"
-    height="auto"
-    rounded
-    width="100%"
-    color="transparent"
-  >
-    <div class="section_titre">
-      <h1 class="text-h2 font-weight">{{ page.titre }}</h1>
-      <br>
+  <v-container id="menu">  
+    <v-sheet
+      class="d-flex align-center justify-center flex-wrap text-center px-4 text-white"
+      elevation="0"
+      height="auto"
+      rounded
+      width="100%"
+      color="transparent"
+    >
+      <div class="section_titre">
+        <h1 class="text-h2 font-weight">{{ page.titre }}</h1>
+        <br>
 
-      <div class="text-h5 font-weight-medium mb-2 mx-16 px-16">
-        {{ page.text }}
+        <div class="text-h5 font-weight-medium mb-2 mx-16 px-16">
+          {{ page.text }}
+        </div>
       </div>
-    </div>
-  </v-sheet>
+    </v-sheet>
   
       <appetizer/>
 
       <carte_menu/>
+      
       <div class="resa mt-n16 mb-n11">
       <card_resa/>
       </div>
    
       <Footer1/>
 
-   </v-container>
+  </v-container>
 </template>
 <script>
 import appetizer from '@/components/appetizer.vue'
 import carte_menu from '@/components/carte_menu.vue'
 import card_resa from '@/components/card_resa.vue'
-import Data_menu from '@/data/Data_menu.json'
 import Footer1 from '@/components/Footer1.vue'
 
 export default {
@@ -48,7 +48,6 @@ export default {
    }, 
    }),
 }
-
 </script>
 <style scoped>
 .v-container {
@@ -64,14 +63,14 @@ max-width: 100%;
 .section_titre{
    margin-top: 350px;
 }
-  .titre{
+  /* .titre{
    margin-top: 450px;
    margin-bottom: 40px;
    letter-spacing: 2px;
    font-size: 45px;
    font-weight: 700;
    text-align: center;
-  }
+  } */
 
 .sous-titre {
    font-size: 1.5rem;

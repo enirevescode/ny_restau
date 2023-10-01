@@ -53,7 +53,7 @@
     }),
   }
 </script>
-<style>
+<style scoped>
 .formulaire {
    margin-top: 100px;
    margin-left: 50px;

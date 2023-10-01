@@ -1,8 +1,8 @@
  [
     {
-        "id": 1,
-        "category": "appetizer",
-        "entree": [
+
+
+        "entrees": [
             {
                 "id": 1,
                 "plat": "LEMON AND GARLIC GREEN BEANS",
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "id": 2,
+
         "category": "main",
         "plat": [
           {

@@ -57,7 +57,7 @@ export default {
    name: "our_teams"
 }
 </script>
-<style>
+<style scoped>
 .v-container{
    max-width: 100%;
 }

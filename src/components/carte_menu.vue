@@ -1,19 +1,19 @@
 <template>
  
-  <Card_menu_row/>
+  <Card_menu/>
 
 </template>
 <script>
 //IMPORT SRCES
-import Data_menu from '@/data/Data_menu.json';
+
 
 
 //COMPONENTS
-import Card_menu_row from '@/components/Card_menu_row.vue'
+import Card_menu from '@/components/Card_menu.vue'
 
 export default {
 
  name: "carte_menu",
- components: { Card_menu_row, Data_menu },
+ components: { Card_menu },
 }
 </script>
