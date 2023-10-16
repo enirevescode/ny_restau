@@ -1,6 +1,5 @@
 <template>
    <div>
-     
       <div class="navbar ml-n16">
          <v-btn>
             <RouterLink active-class="active" to="/">Accueil</RouterLink>
