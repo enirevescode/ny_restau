@@ -1,7 +1,6 @@
 <!-- CARD MENU - PRESENTATION SUR HOMEPAGE DE QUELQUES PLATS -->
 <template>
   <v-container>
-
     <h2 class="text-h5" align="center">OUR MENU</h2>
     <br />
     <br />

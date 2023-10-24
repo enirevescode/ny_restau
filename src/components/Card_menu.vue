@@ -1,5 +1,4 @@
 <script>
-
 export default {
   name: "Card_menu",
   data: () => ({
