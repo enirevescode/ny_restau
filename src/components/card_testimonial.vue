@@ -34,7 +34,7 @@
 const temoignages = [
          {
        "id": 1,
-       "img": "F:\STEPS\CODE\ny_restau\src\assets\emma.png",
+       "img": "src\assets\emma.png",
        "alt": "portrait",
        "name": "Emma Odinson",
        "avis": "Risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel"
