@@ -19,9 +19,10 @@
     </v-sheet>
   
       <appetizer/>
+      <Card_Menu/>
+      <CardPhotoDessert/>
+      <Card_Menu_Dessert/>
 
-      <carte_menu/>
-      
       <div class="resa mt-n16 mb-n11">
       <card_resa/>
       </div>
@@ -32,12 +33,14 @@
 </template>
 <script>
 import appetizer from '@/components/appetizer.vue'
-import carte_menu from '@/components/carte_menu.vue'
+import Card_Menu from '@/components/Card_Menu.vue'
+import Card_Menu_Dessert from '@/components/Card_Menu_Dessert.vue'
 import card_resa from '@/components/card_resa.vue'
 import Footer1 from '@/components/Footer1.vue'
+import CardPhotoDessert from '@/components/CardPhotoDessert.vue'
 
 export default {
-  components: {appetizer,carte_menu, card_resa, Footer1},
+  components: { appetizer, Card_Menu, card_resa, Footer1, CardPhotoDessert, Card_Menu_Dessert },
   data: ()=> ({
       page: 
       {
@@ -63,14 +66,6 @@ max-width: 100%;
 .section_titre{
    margin-top: 350px;
 }
-  /* .titre{
-   margin-top: 450px;
-   margin-bottom: 40px;
-   letter-spacing: 2px;
-   font-size: 45px;
-   font-weight: 700;
-   text-align: center;
-  } */
 
 .sous-titre {
    font-size: 1.5rem;
