@@ -24,9 +24,8 @@
       <br>
       <br>
       <br>
-
       <ambiance/>
-      <ourmenu/>
+      <Card_Menu/>
       <card_signature/>
       <grid_photo/>
       <our_teams/>
@@ -34,7 +33,6 @@
       <card_resa/>
       <card_img_cake/>
       <Footer1/>
-      <!-- <router-view/> -->
    </div>
 </template>
 
@@ -42,7 +40,7 @@
 
 import hero_accueil from '@/components/hero_accueil.vue'
 import ambiance from '@/components/ambiance.vue'
-import ourmenu from '@/components/ourmenu.vue'
+import Card_Menu from '@/components/Card_Menu.vue'
 import card_signature from '@/components/card_signature.vue'
 import grid_photo from '@/components/grid_photo.vue'
 import our_teams from '@/components/our_teams.vue'
@@ -58,7 +56,7 @@ export default {
       
       hero_accueil,
       ambiance,
-      ourmenu,
+      Card_Menu,
       card_signature,
       grid_photo,
       our_teams,
