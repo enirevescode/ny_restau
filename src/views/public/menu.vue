@@ -28,7 +28,6 @@
       </div>
    
       <Footer1/>
-
   </v-container>
 </template>
 <script>
