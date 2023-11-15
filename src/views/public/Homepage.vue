@@ -37,7 +37,6 @@
 </template>
 
 <script>
-
 import hero_accueil from '@/components/hero_accueil.vue'
 import ambiance from '@/components/ambiance.vue'
 import Card_Menu from '@/components/Card_Menu.vue'

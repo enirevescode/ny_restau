@@ -55,17 +55,14 @@ export default {
 .v-container {
 max-width: 100%;
 }
-
 #menu {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)), url('@/assets/signature.webp');
   background-size: cover;
   height: 650px;
 }
-
 .section_titre{
    margin-top: 350px;
 }
-
 .sous-titre {
    font-size: 1.5rem;
    font-weight: 100;
@@ -73,11 +70,9 @@ max-width: 100%;
    margin-right: 205px;
    line-height: 1.3;
 }
-
 .resa {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),url('@/assets/topview.webp');
   background-size: cover;
   color: white;
 }
-
 </style>
