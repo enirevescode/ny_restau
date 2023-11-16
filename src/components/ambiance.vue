@@ -83,6 +83,3 @@ export default {
    name: "ambiance"
 }
 </script>
-<style scoped>
-
-</style>
